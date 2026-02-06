@@ -148,12 +148,12 @@
 @keyframes fruitFall {
     0% {
         top: -120px;
-        transform: translateX(-50%) rotate(0deg);
+        transform: translateX(-50%);
     }
 
     100% {
         top: calc(100% + 120px);
-        transform: translateX(-50%) rotate(360deg);
+        transform: translateX(-50%);
     }
 }
 
