@@ -1,0 +1,2324 @@
+{
+  "beginnen": {
+    "Praesens": "beginnt",
+    "Praesens_example": [
+      "Der Film beginnt um acht Uhr.",
+      "Er beginnt heute mit der Arbeit.",
+      "Sie beginnt laut zu lachen."
+    ],
+    "Praeteritum": "begann",
+    "Praeteritum_example": [
+      "Es begann plötzlich zu regnen.",
+      "Der Lehrer begann die Stunde.",
+      "Sie begann das Buch zu lesen."
+    ],
+    "Perfekt": "hat begonnen",
+    "Perfekt_example": [
+      "Das Konzert hat schon begonnen.",
+      "Er hat gestern mit dem Training begonnen.",
+      "Wir haben pünktlich begonnen."
+    ]
+  },
+  "beißen": {
+    "Praesens": "beißt",
+    "Praesens_example": [
+      "Der Hund beißt den Postboten nicht.",
+      "Er beißt in den sauren Apfel.",
+      "Sie beißt sich auf die Lippe."
+    ],
+    "Praeteritum": "biss",
+    "Praeteritum_example": [
+      "Der Hund biss den Mann ins Bein.",
+      "Er biss kräftig in das Brot.",
+      "Sie biss sich vor Lachen auf die Zunge."
+    ],
+    "Perfekt": "hat gebissen",
+    "Perfekt_example": [
+      "Die Katze hat mich gebissen.",
+      "Er hat sich auf die Zunge gebissen.",
+      "Haben Sie schon einmal jemanden gebissen?"
+    ]
+  },
+  "bekommen": {
+    "Praesens": "bekommt",
+    "Praesens_example": [
+      "Er bekommt ein Geschenk zum Geburtstag.",
+      "Sie bekommt eine neue Chance.",
+      "Das Kind bekommt Hunger."
+    ],
+    "Praeteritum": "bekam",
+    "Praeteritum_example": [
+      "Ich bekam gestern einen Brief.",
+      "Er bekam Angst im Dunkeln.",
+      "Wir bekamen keine Antwort."
+    ],
+    "Perfekt": "hat bekommen",
+    "Perfekt_example": [
+      "Hast du meine Nachricht bekommen?",
+      "Sie hat eine Grippe bekommen.",
+      "Wir haben Besuch bekommen."
+    ]
+  },
+  "beschreiben": {
+    "Praesens": "beschreibt",
+    "Praesens_example": [
+      "Der Autor beschreibt die Landschaft genau.",
+      "Er beschreibt den Weg zum Bahnhof.",
+      "Sie beschreibt ihre Gefühle."
+    ],
+    "Praeteritum": "beschrieb",
+    "Praeteritum_example": [
+      "Der Zeuge beschrieb den Täter.",
+      "Sie beschrieb das Bild detailliert.",
+      "Er beschrieb die Situation sehr gut."
+    ],
+    "Perfekt": "hat beschrieben",
+    "Perfekt_example": [
+      "Er hat den Unfall genau beschrieben.",
+      "Sie hat mir den Weg beschrieben.",
+      "Das Buch hat die Geschichte gut beschrieben."
+    ]
+  },
+  "biegen": {
+    "Praesens": "biegt",
+    "Praesens_example": [
+      "Der Mann biegt das Metall.",
+      "Das Auto biegt um die Ecke.",
+      "Sie biegt den Draht zurecht."
+    ],
+    "Praeteritum": "bog",
+    "Praeteritum_example": [
+      "Er bog das Rohr mit Gewalt.",
+      "Der Wagen bog links ab.",
+      "Sie bog den Ast zur Seite."
+    ],
+    "Perfekt": "hat gebogen",
+    "Perfekt_example": [
+      "Er hat das Blech gebogen.",
+      "Sie hat den Löffel verbogen.",
+      "Wir sind um die Ecke gebogen."
+    ]
+  },
+  "graben": {
+    "Praesens": "gräbt",
+    "Praesens_example": [
+      "Der Hund gräbt ein Loch im Garten.",
+      "Er gräbt nach einem Schatz.",
+      "Sie gräbt die Pflanzen aus."
+    ],
+    "Praeteritum": "grub",
+    "Praeteritum_example": [
+      "Er grub den ganzen Tag im Sand.",
+      "Der Archäologe grub alte Knochen aus.",
+      "Sie grub ein tiefes Loch."
+    ],
+    "Perfekt": "hat gegraben",
+    "Perfekt_example": [
+      "Wir haben im Garten gegraben.",
+      "Der Hund hat unter dem Zaun gegraben.",
+      "Sie hat nach Wasser gegraben."
+    ]
+  },
+  "greifen": {
+    "Praesens": "greift",
+    "Praesens_example": [
+      "Das Kind greift nach dem Spielzeug.",
+      "Er greift zur Flasche.",
+      "Die Angst greift um sich."
+    ],
+    "Praeteritum": "griff",
+    "Praeteritum_example": [
+      "Er griff schnell nach meiner Hand.",
+      "Sie griff in die Tasche.",
+      "Der Torwart griff daneben."
+    ],
+    "Perfekt": "hat gegriffen",
+    "Perfekt_example": [
+      "Er hat nach dem Seil gegriffen.",
+      "Die Maßnahme hat gegriffen.",
+      "Sie hat ins Leere gegriffen."
+    ]
+  },
+  "haben": {
+    "Praesens": "hat",
+    "Praesens_example": [
+      "Er hat ein neues Auto.",
+      "Sie hat heute keine Zeit.",
+      "Das Haus hat ein rotes Dach."
+    ],
+    "Praeteritum": "hatte",
+    "Praeteritum_example": [
+      "Ich hatte gestern Kopfschmerzen.",
+      "Er hatte viel Glück.",
+      "Wir hatten einen schönen Urlaub."
+    ],
+    "Perfekt": "hat gehabt",
+    "Perfekt_example": [
+      "Er hat gestern Geburtstag gehabt.",
+      "Wir haben viel Spaß gehabt.",
+      "Sie hat keine Wahl gehabt."
+    ]
+  },
+  "halten": {
+    "Praesens": "hält",
+    "Praesens_example": [
+      "Er hält das Baby im Arm.",
+      "Der Bus hält an der Haltestelle.",
+      "Sie hält ihr Versprechen."
+    ],
+    "Praeteritum": "hielt",
+    "Praeteritum_example": [
+      "Er hielt die Tür offen.",
+      "Der Zug hielt am Bahnhof.",
+      "Sie hielt eine lange Rede."
+    ],
+    "Perfekt": "hat gehalten",
+    "Perfekt_example": [
+      "Das Wetter hat sich gut gehalten.",
+      "Er hat sein Wort gehalten.",
+      "Der Nagel hat nicht gehalten."
+    ]
+  },
+  "hängen": {
+    "Praesens": "hängt",
+    "Praesens_example": [
+      "Das Bild hängt an der Wand.",
+      "Der Mantel hängt am Haken.",
+      "Alles hängt von dir ab."
+    ],
+    "Praeteritum": "hing",
+    "Praeteritum_example": [
+      "Die Lampe hing über dem Tisch.",
+      "Der Nebel hing über dem Tal.",
+      "Er hing sehr an seinem Hund."
+    ],
+    "Perfekt": "hat gehangen",
+    "Perfekt_example": [
+      "Das Kleid hat im Schrank gehangen.",
+      "Der Schlüssel hat an der Tür gehangen.",
+      "Das Bild hat schief gehangen."
+    ]
+  },
+  "schneiden": {
+    "Praesens": "schneidet",
+    "Praesens_example": [
+      "Er schneidet das Gemüse klein.",
+      "Das Messer schneidet sehr gut.",
+      "Sie schneidet sich die Haare."
+    ],
+    "Praeteritum": "schnitt",
+    "Praeteritum_example": [
+      "Sie schnitt das Brot in Scheiben.",
+      "Er schnitt sich in den Finger.",
+      "Der Friseur schnitt die Haare kurz."
+    ],
+    "Perfekt": "hat geschnitten",
+    "Perfekt_example": [
+      "Ich habe mich beim Kochen geschnitten.",
+      "Er hat das Papier geschnitten.",
+      "Sie hat die Torte geschnitten."
+    ]
+  },
+  "schreiben": {
+    "Praesens": "schreibt",
+    "Praesens_example": [
+      "Sie schreibt einen Brief an ihre Oma.",
+      "Er schreibt die Hausaufgaben ab.",
+      "Der Schüler schreibt an die Tafel."
+    ],
+    "Praeteritum": "schrieb",
+    "Praeteritum_example": [
+      "Goethe schrieb viele Gedichte.",
+      "Sie schrieb mir eine lange E-Mail.",
+      "Er schrieb seinen Namen auf die Liste."
+    ],
+    "Perfekt": "hat geschrieben",
+    "Perfekt_example": [
+      "Hast du den Test schon geschrieben?",
+      "Er hat ein Buch geschrieben.",
+      "Sie hat mir nie geschrieben."
+    ]
+  },
+  "schreien": {
+    "Praesens": "schreit",
+    "Praesens_example": [
+      "Das Baby schreit laut.",
+      "Er schreit vor Schmerzen.",
+      "Warum schreit er so?"
+    ],
+    "Praeteritum": "schrie",
+    "Praeteritum_example": [
+      "Sie schrie um Hilfe.",
+      "Der Mann schrie seinen Hund an.",
+      "Das Kind schrie die ganze Nacht."
+    ],
+    "Perfekt": "hat geschrien",
+    "Perfekt_example": [
+      "Er hat vor Freude geschrien.",
+      "Das Baby hat lange geschrien.",
+      "Sie hat mich angeschrien."
+    ]
+  },
+  "schweigen": {
+    "Praesens": "schweigt",
+    "Praesens_example": [
+      "Der Angeklagte schweigt vor Gericht.",
+      "Sie schweigt zu dem Thema.",
+      "Manchmal schweigt er einfach."
+    ],
+    "Praeteritum": "schwieg",
+    "Praeteritum_example": [
+      "Alle schwiegen für eine Minute.",
+      "Er schwieg, als ich ihn fragte.",
+      "Sie schwieg die ganze Fahrt über."
+    ],
+    "Perfekt": "hat geschwiegen",
+    "Perfekt_example": [
+      "Er hat lange genug geschwiegen.",
+      "Sie hat zu den Vorwürfen geschwiegen.",
+      "Wir haben über das Geheimnis geschwiegen."
+    ]
+  },
+  "schwimmen": {
+    "Praesens": "schwimmt",
+    "Praesens_example": [
+      "Der Fisch schwimmt im Wasser.",
+      "Er schwimmt jeden Morgen.",
+      "Das Holz schwimmt auf dem See."
+    ],
+    "Praeteritum": "schwamm",
+    "Praeteritum_example": [
+      "Sie schwamm ans andere Ufer.",
+      "Er schwamm schneller als ich.",
+      "Wir schwammen im Meer."
+    ],
+    "Perfekt": "ist geschwommen",
+    "Perfekt_example": [
+      "Er ist über den Kanal geschwommen.",
+      "Wir sind gestern lange geschwommen.",
+      "Sie ist Bestzeit geschwommen."
+    ]
+  },
+  "bieten": {
+    "Praesens": "bietet",
+    "Praesens_example": [
+      "Das Hotel bietet einen tollen Service.",
+      "Er bietet ihr seine Hilfe an.",
+      "Die Firma bietet gute Arbeitszeiten."
+    ],
+    "Praeteritum": "bot",
+    "Praeteritum_example": [
+      "Das Geschäft bot keine Rabatte.",
+      "Er bot mir einen Kaffee an.",
+      "Sie bot ihm die Stirn."
+    ],
+    "Perfekt": "hat geboten",
+    "Perfekt_example": [
+      "Man hat mir viel Geld geboten.",
+      "Das Theaterstück hat viel Spannung geboten.",
+      "Er hat eine gute Leistung geboten."
+    ]
+  },
+  "bitten": {
+    "Praesens": "bittet",
+    "Praesens_example": [
+      "Sie bittet um einen Gefallen.",
+      "Er bittet sie zum Tanz.",
+      "Der Gast bittet um die Rechnung."
+    ],
+    "Praeteritum": "bat",
+    "Praeteritum_example": [
+      "Er bat um Entschuldigung.",
+      "Sie bat ihn herein.",
+      "Der Mann bat um ein Glas Wasser."
+    ],
+    "Perfekt": "hat gebeten",
+    "Perfekt_example": [
+      "Ich habe dich um Hilfe gebeten.",
+      "Sie hat ihn zu sich gebeten.",
+      "Wir haben um Ruhe gebeten."
+    ]
+  },
+  "bleiben": {
+    "Praesens": "bleibt",
+    "Praesens_example": [
+      "Er bleibt heute zu Hause.",
+      "Alles bleibt beim Alten.",
+      "Sie bleibt immer ruhig."
+    ],
+    "Praeteritum": "blieb",
+    "Praeteritum_example": [
+      "Er blieb lange wach.",
+      "Das Wetter blieb schön.",
+      "Sie blieb im Bett liegen."
+    ],
+    "Perfekt": "ist geblieben",
+    "Perfekt_example": [
+      "Er ist gesund geblieben.",
+      "Wir sind Freunde geblieben.",
+      "Sie ist sitzen geblieben."
+    ]
+  },
+  "brechen": {
+    "Praesens": "bricht",
+    "Praesens_example": [
+      "Das Eis bricht unter seinem Gewicht.",
+      "Er bricht sein Versprechen nicht.",
+      "Sie bricht das Brot."
+    ],
+    "Praeteritum": "brach",
+    "Praeteritum_example": [
+      "Er brach sich das Bein.",
+      "Das Feuer brach plötzlich aus.",
+      "Sie brach den Kontakt ab."
+    ],
+    "Perfekt": "hat gebrochen",
+    "Perfekt_example": [
+      "Er hat sein Wort gebrochen.",
+      "Sie hat den Rekord gebrochen.",
+      "Der Ast ist abgebrochen (hat gebrochen)."
+    ]
+  },
+  "bringen": {
+    "Praesens": "bringt",
+    "Praesens_example": [
+      "Der Postbote bringt die Pakete.",
+      "Das bringt doch nichts.",
+      "Er bringt sie zum Lachen."
+    ],
+    "Praeteritum": "brachte",
+    "Praeteritum_example": [
+      "Sie brachte den Müll raus.",
+      "Er brachte gute Neuigkeiten.",
+      "Das brachte ihn auf eine Idee."
+    ],
+    "Perfekt": "hat gebracht",
+    "Perfekt_example": [
+      "Was hat der Weihnachtsmann gebracht?",
+      "Er hat das Auto in die Werkstatt gebracht.",
+      "Das hat Unglück gebracht."
+    ]
+  },
+  "denken": {
+    "Praesens": "denkt",
+    "Praesens_example": [
+      "Er denkt oft an sie.",
+      "Sie denkt logisch.",
+      "Wer denkt sich so etwas aus?"
+    ],
+    "Praeteritum": "dachte",
+    "Praeteritum_example": [
+      "Ich dachte, du bist krank.",
+      "Er dachte lange nach.",
+      "Sie dachte an die Zukunft."
+    ],
+    "Perfekt": "hat gedacht",
+    "Perfekt_example": [
+      "Das habe ich mir gedacht.",
+      "Wer hätte das gedacht?",
+      "Er hat an alles gedacht."
+    ]
+  },
+  "essen": {
+    "Praesens": "isst",
+    "Praesens_example": [
+      "Er isst gerne Pizza.",
+      "Das Kind isst seinen Teller leer.",
+      "Sie isst kein Fleisch."
+    ],
+    "Praeteritum": "aß",
+    "Praeteritum_example": [
+      "Wir aßen gestern im Restaurant.",
+      "Er aß den Apfel hastig.",
+      "Sie aß nur einen Salat."
+    ],
+    "Perfekt": "hat gegessen",
+    "Perfekt_example": [
+      "Hast du schon zu Mittag gegessen?",
+      "Er hat den Kuchen aufgegessen.",
+      "Wir haben gut gegessen."
+    ]
+  },
+  "fahren": {
+    "Praesens": "fährt",
+    "Praesens_example": [
+      "Der Zug fährt pünktlich ab.",
+      "Sie fährt gerne Fahrrad.",
+      "Er fährt morgen nach Berlin."
+    ],
+    "Praeteritum": "fuhr",
+    "Praeteritum_example": [
+      "Er fuhr viel zu schnell.",
+      "Sie fuhr mit dem Bus zur Schule.",
+      "Wir fuhren in den Urlaub."
+    ],
+    "Perfekt": "ist gefahren",
+    "Perfekt_example": [
+      "Er ist gegen einen Baum gefahren.",
+      "Wir sind lange Auto gefahren.",
+      "Sie ist nach Hause gefahren."
+    ]
+  },
+  "fallen": {
+    "Praesens": "fällt",
+    "Praesens_example": [
+      "Das Laub fällt von den Bäumen.",
+      "Der Apfel fällt nicht weit vom Stamm.",
+      "Ihm fällt kein gutes Beispiel ein."
+    ],
+    "Praeteritum": "fiel",
+    "Praeteritum_example": [
+      "Das Glas fiel auf den Boden.",
+      "Der Strom fiel gestern aus.",
+      "Er fiel die Treppe hinunter."
+    ],
+    "Perfekt": "ist gefallen",
+    "Perfekt_example": [
+      "Der Schnee ist gefallen.",
+      "Sie ist durch die Prüfung gefallen.",
+      "Er ist tief gefallen."
+    ]
+  },
+  "finden": {
+    "Praesens": "findet",
+    "Praesens_example": [
+      "Er findet seinen Schlüssel nicht.",
+      "Sie findet das Buch spannend.",
+      "Das Konzert findet morgen statt."
+    ],
+    "Praeteritum": "fand",
+    "Praeteritum_example": [
+      "Ich fand einen Euro auf der Straße.",
+      "Er fand den Weg sofort.",
+      "Sie fand die Lösung."
+    ],
+    "Perfekt": "hat gefunden",
+    "Perfekt_example": [
+      "Wir haben Pilze gefunden.",
+      "Er hat neue Freunde gefunden.",
+      "Sie hat ihre Brille gefunden."
+    ]
+  },
+  "fliegen": {
+    "Praesens": "fliegt",
+    "Praesens_example": [
+      "Der Vogel fliegt hoch.",
+      "Das Flugzeug fliegt nach London.",
+      "Die Zeit fliegt."
+    ],
+    "Praeteritum": "flog",
+    "Praeteritum_example": [
+      "Er flog aus der Kurve.",
+      "Der Ball flog über den Zaun.",
+      "Sie flog letzte Woche nach Spanien."
+    ],
+    "Perfekt": "ist geflogen",
+    "Perfekt_example": [
+      "Er ist noch nie geflogen.",
+      "Der Vogel ist weggeflogen.",
+      "Wir sind business class geflogen."
+    ]
+  },
+  "geben": {
+    "Praesens": "gibt",
+    "Praesens_example": [
+      "Er gibt ihr einen Kuss.",
+      "Es gibt heute Regen.",
+      "Sie gibt niemals auf."
+    ],
+    "Praeteritum": "gab",
+    "Praeteritum_example": [
+      "Er gab mir die Hand.",
+      "Es gab Probleme.",
+      "Sie gab ein Konzert."
+    ],
+    "Perfekt": "hat gegeben",
+    "Perfekt_example": [
+      "Er hat mir einen Tipp gegeben.",
+      "Es hat Ärger gegeben.",
+      "Sie hat alles gegeben."
+    ]
+  },
+  "gehen": {
+    "Praesens": "geht",
+    "Praesens_example": [
+      "Sie geht in die Schule.",
+      "Wie geht es dir?",
+      "Die Uhr geht falsch."
+    ],
+    "Praeteritum": "ging",
+    "Praeteritum_example": [
+      "Er ging spazieren.",
+      "Alles ging sehr schnell.",
+      "Sie ging früh schlafen."
+    ],
+    "Perfekt": "ist gegangen",
+    "Perfekt_example": [
+      "Er ist nach Hause gegangen.",
+      "Die Lampe ist kaputt gegangen.",
+      "Wir sind zu Fuß gegangen."
+    ]
+  },
+  "heben": {
+    "Praesens": "hebt",
+    "Praesens_example": [
+      "Er hebt die schwere Kiste.",
+      "Sie hebt das Geld vom Konto ab.",
+      "Der Flugzeug hebt ab."
+    ],
+    "Praeteritum": "hob",
+    "Praeteritum_example": [
+      "Er hob den Stein an.",
+      "Sie hob die Hand.",
+      "Der Wind hob das Dach an."
+    ],
+    "Perfekt": "hat gehoben",
+    "Perfekt_example": [
+      "Wir haben das Niveau gehoben.",
+      "Er hat schwer gehoben.",
+      "Sie hat den Schatz gehoben."
+    ]
+  },
+  "heißen": {
+    "Praesens": "heißt",
+    "Praesens_example": [
+      "Er heißt Michael.",
+      "Was heißt das auf Englisch?",
+      "Das heißt nichts Gutes."
+    ],
+    "Praeteritum": "hieß",
+    "Praeteritum_example": [
+      "Früher hieß die Stadt anders.",
+      "Er hieß uns willkommen.",
+      "Es hieß, es würde regnen."
+    ],
+    "Perfekt": "hat geheißen",
+    "Perfekt_example": [
+      "Wie hat er früher geheißen?",
+      "Es hat immer geheißen, er sei reich.",
+      "Das Dorf hat anders geheißen."
+    ]
+  },
+  "helfen": {
+    "Praesens": "hilft",
+    "Praesens_example": [
+      "Er hilft seiner Mutter.",
+      "Die Medizin hilft gegen Schmerzen.",
+      "Das hilft mir sehr."
+    ],
+    "Praeteritum": "half",
+    "Praeteritum_example": [
+      "Niemand half ihm.",
+      "Sie half beim Umzug.",
+      "Das Wetter half der Ernte."
+    ],
+    "Perfekt": "hat geholfen",
+    "Perfekt_example": [
+      "Er hat mir oft geholfen.",
+      "Das Medikament hat gut geholfen.",
+      "Sie haben einander geholfen."
+    ]
+  },
+  "kommen": {
+    "Praesens": "kommt",
+    "Praesens_example": [
+      "Der Zug kommt gleich.",
+      "Er kommt aus Deutschland.",
+      "Sie kommt später nach."
+    ],
+    "Praeteritum": "kam",
+    "Praeteritum_example": [
+      "Er kam gestern spät heim.",
+      "Die Idee kam mir plötzlich.",
+      "Sie kam nicht zur Party."
+    ],
+    "Perfekt": "ist gekommen",
+    "Perfekt_example": [
+      "Der Winter ist gekommen.",
+      "Er ist zu spät gekommen.",
+      "Wir sind gut angekommen."
+    ]
+  },
+  "können": {
+    "Praesens": "kann",
+    "Praesens_example": [
+      "Er kann gut schwimmen.",
+      "Sie kann Klavier spielen.",
+      "Das kann nicht wahr sein."
+    ],
+    "Praeteritum": "konnte",
+    "Praeteritum_example": [
+      "Ich konnte nicht schlafen.",
+      "Er konnte nichts dafür.",
+      "Wir konnten es nicht glauben."
+    ],
+    "Perfekt": "hat gekonnt",
+    "Perfekt_example": [
+      "Er hat das Gedicht auswendig gekonnt.",
+      "Sie hat alles gekonnt, was gefragt wurde.",
+      "Wir haben es früher besser gekonnt."
+    ]
+  },
+  "lassen": {
+    "Praesens": "lässt",
+    "Praesens_example": [
+      "Er lässt das Fenster offen.",
+      "Sie lässt sich Zeit.",
+      "Der Vater lässt das Kind spielen."
+    ],
+    "Praeteritum": "ließ",
+    "Praeteritum_example": [
+      "Er ließ den Koffer fallen.",
+      "Sie ließ sich scheiden.",
+      "Wir ließen den Arzt kommen."
+    ],
+    "Perfekt": "hat gelassen",
+    "Perfekt_example": [
+      "Er hat das Rauchen gelassen.",
+      "Wo hast du meine Tasche gelassen?",
+      "Sie hat mich in Ruhe gelassen."
+    ]
+  },
+  "laufen": {
+    "Praesens": "läuft",
+    "Praesens_example": [
+      "Der Film läuft im Kino.",
+      "Die Nase läuft.",
+      "Er läuft einen Marathon."
+    ],
+    "Praeteritum": "lief",
+    "Praeteritum_example": [
+      "Alles lief nach Plan.",
+      "Das Wasser lief aus.",
+      "Er lief sehr schnell."
+    ],
+    "Perfekt": "ist gelaufen",
+    "Perfekt_example": [
+      "Die Zeit ist abgelaufen.",
+      "Es ist dumm gelaufen.",
+      "Wir sind weit gelaufen."
+    ]
+  },
+  "lesen": {
+    "Praesens": "liest",
+    "Praesens_example": [
+      "Sie liest ein spannendes Buch.",
+      "Er liest die Zeitung.",
+      "Der Lehrer liest laut vor."
+    ],
+    "Praeteritum": "las",
+    "Praeteritum_example": [
+      "Er las die Nachricht.",
+      "Wir lasen Goethe in der Schule.",
+      "Sie las bis tief in die Nacht."
+    ],
+    "Perfekt": "hat gelesen",
+    "Perfekt_example": [
+      "Ich habe das Buch gelesen.",
+      "Er hat die Warnung nicht gelesen.",
+      "Hast du die E-Mail gelesen?"
+    ]
+  },
+  "liegen": {
+    "Praesens": "liegt",
+    "Praesens_example": [
+      "Das Buch liegt auf dem Tisch.",
+      "München liegt in Bayern.",
+      "Er liegt krank im Bett."
+    ],
+    "Praeteritum": "lag",
+    "Praeteritum_example": [
+      "Schnee lag auf den Dächern.",
+      "Die Entscheidung lag bei ihm.",
+      "Er lag falsch."
+    ],
+    "Perfekt": "hat gelegen",
+    "Perfekt_example": [
+      "Ich habe lange in der Sonne gelegen.",
+      "Es hat an mir gelegen.",
+      "Die Sachen haben hier gelegen."
+    ]
+  },
+  "nehmen": {
+    "Praesens": "nimmt",
+    "Praesens_example": [
+      "Er nimmt den Bus.",
+      "Sie nimmt die Tabletten.",
+      "Wer nimmt das letzte Stück?"
+    ],
+    "Praeteritum": "nahm",
+    "Praeteritum_example": [
+      "Er nahm Abschied.",
+      "Sie nahm das Geschenk an.",
+      "Wir nahmen den falschen Weg."
+    ],
+    "Perfekt": "hat genommen",
+    "Perfekt_example": [
+      "Er hat zugenommen.",
+      "Wer hat meinen Stift genommen?",
+      "Sie hat Urlaub genommen."
+    ]
+  },
+  "rufen": {
+    "Praesens": "ruft",
+    "Praesens_example": [
+      "Er ruft seinen Hund.",
+      "Sie ruft die Polizei.",
+      "Wer ruft da an?"
+    ],
+    "Praeteritum": "rief",
+    "Praeteritum_example": [
+      "Sie rief laut um Hilfe.",
+      "Er rief mich gestern an.",
+      "Die Pflicht rief."
+    ],
+    "Perfekt": "hat gerufen",
+    "Perfekt_example": [
+      "Hast du mich gerufen?",
+      "Er hat ein Taxi gerufen.",
+      "Wir haben laut gerufen."
+    ]
+  },
+  "schlafen": {
+    "Praesens": "schläft",
+    "Praesens_example": [
+      "Das Baby schläft ruhig.",
+      "Er schläft oft lange.",
+      "Ihr Fuß schläft ein."
+    ],
+    "Praeteritum": "schlief",
+    "Praeteritum_example": [
+      "Er schlief während des Films ein.",
+      "Sie schlief tief und fest.",
+      "Wir schliefen im Zelt."
+    ],
+    "Perfekt": "hat geschlafen",
+    "Perfekt_example": [
+      "Ich habe schlecht geschlafen.",
+      "Er hat den ganzen Tag geschlafen.",
+      "Habt ihr gut geschlafen?"
+    ]
+  },
+  "sehen": {
+    "Praesens": "sieht",
+    "Praesens_example": [
+      "Er sieht fern.",
+      "Sie sieht gut aus.",
+      "Man sieht den Wald vor lauter Bäumen nicht."
+    ],
+    "Praeteritum": "sah",
+    "Praeteritum_example": [
+      "Er sah den Unfall.",
+      "Sie sah mich an.",
+      "Wir sahen einen Film."
+    ],
+    "Perfekt": "hat gesehen",
+    "Perfekt_example": [
+      "Ich habe das noch nie gesehen.",
+      "Er hat den Fehler nicht gesehen.",
+      "Wir haben uns lange nicht gesehen."
+    ]
+  },
+  "sein": {
+    "Praesens": "ist",
+    "Praesens_example": [
+      "Das Wetter ist schön.",
+      "Er ist Lehrer.",
+      "Sie ist müde."
+    ],
+    "Praeteritum": "war",
+    "Praeteritum_example": [
+      "Ich war gestern im Kino.",
+      "Es war einmal ein König.",
+      "Sie war sehr glücklich."
+    ],
+    "Perfekt": "ist gewesen",
+    "Perfekt_example": [
+      "Er ist in Paris gewesen.",
+      "Wir sind Freunde gewesen.",
+      "Das ist nicht nötig gewesen."
+    ]
+  },
+  "sitzen": {
+    "Praesens": "sitzt",
+    "Praesens_example": [
+      "Der Anzug sitzt perfekt.",
+      "Er sitzt auf dem Stuhl.",
+      "Sie sitzt im Gefängnis."
+    ],
+    "Praeteritum": "saß",
+    "Praeteritum_example": [
+      "Der Vogel saß auf dem Ast.",
+      "Er saß in der ersten Reihe.",
+      "Wir saßen lange zusammen."
+    ],
+    "Perfekt": "hat gesessen",
+    "Perfekt_example": [
+      "Ich habe bequem gesessen.",
+      "Der Schock hat tief gesessen.",
+      "Er hat seine Strafe abgesessen."
+    ]
+  },
+  "sprechen": {
+    "Praesens": "spricht",
+    "Praesens_example": [
+      "Er spricht drei Sprachen.",
+      "Sie spricht leise.",
+      "Das Bild spricht für sich."
+    ],
+    "Praeteritum": "sprach",
+    "Praeteritum_example": [
+      "Er sprach ein Machtwort.",
+      "Der Kanzler sprach zum Volk.",
+      "Wir sprachen über das Wetter."
+    ],
+    "Perfekt": "hat gesprochen",
+    "Perfekt_example": [
+      "Ich habe mit ihm gesprochen.",
+      "Sie hat auf den Anrufbeantworter gesprochen.",
+      "Wir haben uns ausgesprochen."
+    ]
+  },
+  "stehen": {
+    "Praesens": "steht",
+    "Praesens_example": [
+      "Das Auto steht in der Garage.",
+      "Ihm steht das Hemd gut.",
+      "Sie steht früh auf."
+    ],
+    "Praeteritum": "stand",
+    "Praeteritum_example": [
+      "Er stand im Stau.",
+      "Das Haus stand leer.",
+      "Es stand in der Zeitung."
+    ],
+    "Perfekt": "hat gestanden",
+    "Perfekt_example": [
+      "Ich habe lange angestanden.",
+      "Er hat unter Verdacht gestanden.",
+      "Das Auto hat dort gestanden."
+    ]
+  },
+  "tragen": {
+    "Praesens": "trägt",
+    "Praesens_example": [
+      "Sie trägt eine Brille.",
+      "Der Baum trägt Früchte.",
+      "Er trägt die Verantwortung."
+    ],
+    "Praeteritum": "trug",
+    "Praeteritum_example": [
+      "Er trug einen schweren Koffer.",
+      "Sie trug ein rotes Kleid.",
+      "Wir trugen die Kosten."
+    ],
+    "Perfekt": "hat getragen",
+    "Perfekt_example": [
+      "Er hat die Konsequenzen getragen.",
+      "Sie hat schwer daran getragen.",
+      "Ich habe die Kiste getragen."
+    ]
+  },
+  "tun": {
+    "Praesens": "tut",
+    "Praesens_example": [
+      "Das tut weh.",
+      "Er tut so, als ob.",
+      "Es tut mir leid."
+    ],
+    "Praeteritum": "tat",
+    "Praeteritum_example": [
+      "Er tat sein Bestes.",
+      "Sie tat nichts dergleichen.",
+      "Der Kopf tat mir weh."
+    ],
+    "Perfekt": "hat getan",
+    "Perfekt_example": [
+      "Ich habe nichts getan.",
+      "Er hat sich schwer getan.",
+      "Was hast du getan?"
+    ]
+  },
+  "werden": {
+    "Praesens": "wird",
+    "Praesens_example": [
+      "Es wird dunkel.",
+      "Er wird Arzt.",
+      "Das Essen wird kalt."
+    ],
+    "Praeteritum": "wurde",
+    "Praeteritum_example": [
+      "Er wurde rot im Gesicht.",
+      "Sie wurde befördert.",
+      "Das Haus wurde gebaut."
+    ],
+    "Perfekt": "ist geworden",
+    "Perfekt_example": [
+      "Er ist alt geworden.",
+      "Was ist aus ihm geworden?",
+      "Es ist spät geworden."
+    ]
+  },
+  "wissen": {
+    "Praesens": "weiß",
+    "Praesens_example": [
+      "Er weiß die Antwort.",
+      "Ich weiß nicht, wo er ist.",
+      "Man weiß nie."
+    ],
+    "Praeteritum": "wusste",
+    "Praeteritum_example": [
+      "Sie wusste Bescheid.",
+      "Niemand wusste davon.",
+      "Er wusste sich zu helfen."
+    ],
+    "Perfekt": "hat gewusst",
+    "Perfekt_example": [
+      "Ich habe es gewusst!",
+      "Hättest du das gewusst?",
+      "Er hat von nichts gewusst."
+    ]
+  },
+  "ziehen": {
+    "Praesens": "zieht",
+    "Praesens_example": [
+      "Er zieht an dem Seil.",
+      "Sie zieht nach Berlin.",
+      "Es zieht hier."
+    ],
+    "Praeteritum": "zog",
+    "Praeteritum_example": [
+      "Er zog den Stecker.",
+      "Die Wolken zogen vorbei.",
+      "Sie zog die Augenbrauen hoch."
+    ],
+    "Perfekt": "hat gezogen",
+    "Perfekt_example": [
+      "Wir haben am gleichen Strang gezogen.",
+      "Der Zahnarzt hat den Zahn gezogen.",
+      "Sie ist umgezogen (hat gezogen)."
+    ]
+  },
+  "brennen": {
+    "Praesens": "brennt",
+    "Praesens_example": [
+      "Das Feuer brennt im Kamin.",
+      "Die Kerze brennt hell.",
+      "Meine Augen brennen."
+    ],
+    "Praeteritum": "brannte",
+    "Praeteritum_example": [
+      "Das Haus brannte lichterloh.",
+      "Die Sonne brannte vom Himmel.",
+      "Das Licht brannte die ganze Nacht."
+    ],
+    "Perfekt": "hat gebrannt",
+    "Perfekt_example": [
+      "Es hat in der Küche gebrannt.",
+      "Die Sicherung hat durchgebrannt.",
+      "Das Essen hat angebrannt."
+    ]
+  },
+  "dürfen": {
+    "Praesens": "darf",
+    "Praesens_example": [
+      "Er darf heute länger aufbleiben.",
+      "Darf ich Ihnen helfen?",
+      "Hier darf man nicht rauchen."
+    ],
+    "Praeteritum": "durfte",
+    "Praeteritum_example": [
+      "Als Kind durfte ich das nicht.",
+      "Sie durfte das Auto benutzen.",
+      "Wir durften früher gehen."
+    ],
+    "Perfekt": "hat gedurft",
+    "Perfekt_example": [
+      "Er hat das nicht gedurft.",
+      "Sie hat alles gedurft, was sie wollte.",
+      "Wir haben nicht hinein gedurft."
+    ]
+  },
+  "fangen": {
+    "Praesens": "fängt",
+    "Praesens_example": [
+      "Die Katze fängt eine Maus.",
+      "Der Torwart fängt den Ball.",
+      "Der Film fängt gleich an."
+    ],
+    "Praeteritum": "fing",
+    "Praeteritum_example": [
+      "Er fing den Ball mit einer Hand.",
+      "Die Polizei fing den Dieb.",
+      "Es fing an zu regnen."
+    ],
+    "Perfekt": "hat gefangen",
+    "Perfekt_example": [
+      "Wir haben einen großen Fisch gefangen.",
+      "Wer hat den Ball gefangen?",
+      "Die Katze hat einen Vogel gefangen."
+    ]
+  },
+  "gewinnen": {
+    "Praesens": "gewinnt",
+    "Praesens_example": [
+      "Wer wagt, gewinnt.",
+      "Unsere Mannschaft gewinnt das Spiel.",
+      "Die Idee gewinnt an Bedeutung."
+    ],
+    "Praeteritum": "gewann",
+    "Praeteritum_example": [
+      "Sie gewann die Goldmedaille.",
+      "Er gewann im Lotto.",
+      "Das Projekt gewann einen Preis."
+    ],
+    "Perfekt": "hat gewonnen",
+    "Perfekt_example": [
+      "Wir haben das Match gewonnen.",
+      "Er hat viel Erfahrung gewonnen.",
+      "Die Partei hat Stimmen gewonnen."
+    ]
+  },
+  "kennen": {
+    "Praesens": "kennt",
+    "Praesens_example": [
+      "Er kennt den Weg sehr gut.",
+      "Kennt ihr euch schon lange?",
+      "Sie kennt keine Angst."
+    ],
+    "Praeteritum": "kannte",
+    "Praeteritum_example": [
+      "Ich kannte ihn früher gut.",
+      "Niemand kannte die Antwort.",
+      "Sie kannte die Stadt wie ihre Westentasche."
+    ],
+    "Perfekt": "hat gekannt",
+    "Perfekt_example": [
+      "Ich habe ihn nicht gekannt.",
+      "Sie hat das Risiko gekannt.",
+      "Wir haben die Regeln gekannt."
+    ]
+  },
+  "lügen": {
+    "Praesens": "lügt",
+    "Praesens_example": [
+      "Wer einmal lügt, dem glaubt man nicht.",
+      "Er lügt, ohne rot zu werden.",
+      "Sie lügt nie."
+    ],
+    "Praeteritum": "log",
+    "Praeteritum_example": [
+      "Er log bei seiner Aussage.",
+      "Sie log ihn an.",
+      "Der Zeuge log vor Gericht."
+    ],
+    "Perfekt": "hat gelogen",
+    "Perfekt_example": [
+      "Du hast mich angelogen.",
+      "Er hat offensichtlich gelogen.",
+      "Sie hat über ihr Alter gelogen."
+    ]
+  },
+  "mögen": {
+    "Praesens": "mag",
+    "Praesens_example": [
+      "Sie mag Schokolade sehr gerne.",
+      "Ich mag keine Spinnen.",
+      "Er mag Musik von Mozart."
+    ],
+    "Praeteritum": "mochte",
+    "Praeteritum_example": [
+      "Als Kind mochte ich keinen Spinat.",
+      "Sie mochten sich sofort.",
+      "Er mochte nicht darüber sprechen."
+    ],
+    "Perfekt": "hat gemocht",
+    "Perfekt_example": [
+      "Ich habe ihn immer gemocht.",
+      "Sie hat den Film nicht gemocht.",
+      "Wir haben das Essen sehr gemocht."
+    ]
+  },
+  "raten": {
+    "Praesens": "rät",
+    "Praesens_example": [
+      "Der Arzt rät zu mehr Sport.",
+      "Sie rät mir, vorsichtig zu sein.",
+      "Er rät das Rätsel."
+    ],
+    "Praeteritum": "riet",
+    "Praeteritum_example": [
+      "Mein Vater riet mir davon ab.",
+      "Sie riet einfach ins Blaue hinein.",
+      "Er riet ihr zur Kündigung."
+    ],
+    "Perfekt": "hat geraten",
+    "Perfekt_example": [
+      "Wer hat dir das geraten?",
+      "Ich habe das richtige Wort geraten.",
+      "Sie hat mir gut zugeraten."
+    ]
+  },
+  "riechen": {
+    "Praesens": "riecht",
+    "Praesens_example": [
+      "Es riecht hier nach frischem Kaffee.",
+      "Die Blume riecht wunderbar.",
+      "Er riecht den Braten."
+    ],
+    "Praeteritum": "roch",
+    "Praeteritum_example": [
+      "Es roch nach Regen.",
+      "Das Essen roch verbrannt.",
+      "Sie roch an der Rose."
+    ],
+    "Perfekt": "hat gerochen",
+    "Perfekt_example": [
+      "Hast du das Gas gerochen?",
+      "Der Hund hat die Fährte gerochen.",
+      "Es hat komisch gerochen."
+    ]
+  },
+  "schließen": {
+    "Praesens": "schließt",
+    "Praesens_example": [
+      "Der Laden schließt um 18 Uhr.",
+      "Er schließt die Tür ab.",
+      "Sie schließt Frieden mit ihm."
+    ],
+    "Praeteritum": "schloss",
+    "Praeteritum_example": [
+      "Er schloss das Fenster.",
+      "Sie schloss ihr Studium ab.",
+      "Die Firma schloss ihre Pforten."
+    ],
+    "Perfekt": "hat geschlossen",
+    "Perfekt_example": [
+      "Wir haben Freundschaft geschlossen.",
+      "Das Museum hat schon geschlossen.",
+      "Er hat die Augen für immer geschlossen."
+    ]
+  },
+  "singen": {
+    "Praesens": "singt",
+    "Praesens_example": [
+      "Sie singt im Chor.",
+      "Der Vogel singt ein Lied.",
+      "Er singt unter der Dusche."
+    ],
+    "Praeteritum": "sang",
+    "Praeteritum_example": [
+      "Wir sangen gemeinsam Weihnachtslieder.",
+      "Sie sang die Nationalhymne.",
+      "Er sang mit tiefer Stimme."
+    ],
+    "Perfekt": "hat gesungen",
+    "Perfekt_example": [
+      "Er hat früher in einer Band gesungen.",
+      "Wir haben laut gesungen.",
+      "Sie hat falsch gesungen."
+    ]
+  },
+  "springen": {
+    "Praesens": "springt",
+    "Praesens_example": [
+      "Der Frosch springt ins Wasser.",
+      "Das Kind springt Seil.",
+      "Er springt über den Zaun."
+    ],
+    "Praeteritum": "sprang",
+    "Praeteritum_example": [
+      "Sie sprang vor Freude in die Luft.",
+      "Die Ampel sprang auf Rot.",
+      "Er sprang vom Drei-Meter-Brett."
+    ],
+    "Perfekt": "ist gesprungen",
+    "Perfekt_example": [
+      "Das Glas ist gesprungen.",
+      "Er ist sehr weit gesprungen.",
+      "Der Funke ist übergesprungen."
+    ]
+  },
+  "sterben": {
+    "Praesens": "stirbt",
+    "Praesens_example": [
+      "Die Hoffnung stirbt zuletzt.",
+      "Die Pflanze stirbt ohne Wasser.",
+      "Jeder Mensch stirbt irgendwann."
+    ],
+    "Praeteritum": "starb",
+    "Praeteritum_example": [
+      "Er starb friedlich im Schlaf.",
+      "Der Künstler starb sehr jung.",
+      "Die Tradition starb langsam aus."
+    ],
+    "Perfekt": "ist gestorben",
+    "Perfekt_example": [
+      "Ihr Mann ist letztes Jahr gestorben.",
+      "Meine Oma ist gestorben.",
+      "Das Projekt ist gestorben."
+    ]
+  },
+  "treffen": {
+    "Praesens": "trifft",
+    "Praesens_example": [
+      "Sie trifft sich heute mit Freunden.",
+      "Der Pfeil trifft das Ziel.",
+      "Er trifft eine Entscheidung."
+    ],
+    "Praeteritum": "traf",
+    "Praeteritum_example": [
+      "Ich traf ihn zufällig im Supermarkt.",
+      "Sie traf der Schlag.",
+      "Er traf genau ins Schwarze."
+    ],
+    "Perfekt": "hat getroffen",
+    "Perfekt_example": [
+      "Wir haben uns gestern getroffen.",
+      "Deine Worte haben mich getroffen.",
+      "Er hat die richtige Wahl getroffen."
+    ]
+  },
+  "trinken": {
+    "Praesens": "trinkt",
+    "Praesens_example": [
+      "Er trinkt jeden Morgen Kaffee.",
+      "Sie trinkt keinen Alkohol.",
+      "Das Baby trinkt Milch."
+    ],
+    "Praeteritum": "trank",
+    "Praeteritum_example": [
+      "Er trank ein Glas Wasser.",
+      "Wir tranken Wein zum Essen.",
+      "Sie trank die Flasche leer."
+    ],
+    "Perfekt": "hat getrunken",
+    "Perfekt_example": [
+      "Hast du genug getrunken?",
+      "Er hat zu viel getrunken.",
+      "Ich habe nur Saft getrunken."
+    ]
+  },
+  "vergessen": {
+    "Praesens": "vergisst",
+    "Praesens_example": [
+      "Er vergisst oft Namen.",
+      "Sie vergisst nie einen Geburtstag.",
+      "Man vergisst schnell."
+    ],
+    "Praeteritum": "vergaß",
+    "Praeteritum_example": [
+      "Ich vergaß mein Portemonnaie.",
+      "Sie vergaß die Zeit.",
+      "Er vergaß, das Licht auszuschalten."
+    ],
+    "Perfekt": "hat vergessen",
+    "Perfekt_example": [
+      "Ich habe meinen Schlüssel vergessen.",
+      "Hast du mich vergessen?",
+      "Wir haben die Sorgen vergessen."
+    ]
+  },
+  "verlieren": {
+    "Praesens": "verliert",
+    "Praesens_example": [
+      "Der Baum verliert seine Blätter.",
+      "Er verliert die Geduld.",
+      "Wer spielt, kann verlieren."
+    ],
+    "Praeteritum": "verlor",
+    "Praeteritum_example": [
+      "Sie verlor ihren Job.",
+      "Er verlor das Gleichgewicht.",
+      "Wir verloren das Spiel knapp."
+    ],
+    "Perfekt": "hat verloren",
+    "Perfekt_example": [
+      "Ich habe meine Brille verloren.",
+      "Sie hat ihr Herz verloren.",
+      "Er hat den Mut verloren."
+    ]
+  },
+  "waschen": {
+    "Praesens": "wäscht",
+    "Praesens_example": [
+      "Eine Hand wäscht die andere.",
+      "Er wäscht sein Auto.",
+      "Sie wäscht sich die Haare."
+    ],
+    "Praeteritum": "wusch",
+    "Praeteritum_example": [
+      "Sie wusch die Wäsche von Hand.",
+      "Er wusch sich das Gesicht.",
+      "Der Regen wusch den Staub weg."
+    ],
+    "Perfekt": "hat gewaschen",
+    "Perfekt_example": [
+      "Hast du dir die Hände gewaschen?",
+      "Ich habe das Hemd schon gewaschen.",
+      "Er hat sein Auto gewaschen."
+    ]
+  },
+  "werfen": {
+    "Praesens": "wirft",
+    "Praesens_example": [
+      "Er wirft den Ball weit.",
+      "Das Ereignis wirft Fragen auf.",
+      "Sie wirft einen Blick auf die Uhr."
+    ],
+    "Praeteritum": "warf",
+    "Praeteritum_example": [
+      "Er warf den Stein ins Wasser.",
+      "Sie warf die Tür zu.",
+      "Er warf ihr einen Kuss zu."
+    ],
+    "Perfekt": "hat geworfen",
+    "Perfekt_example": [
+      "Wer hat den ersten Stein geworfen?",
+      "Die Hündin hat Welpen geworfen.",
+      "Er hat das Handtuch geworfen."
+    ]
+  },
+  "empfangen": {
+    "Praesens": "empfängt",
+    "Praesens_example": [
+      "Der Präsident empfängt die Gäste.",
+      "Das Gerät empfängt kein Signal.",
+      "Sie empfängt ihn herzlich."
+    ],
+    "Praeteritum": "empfing",
+    "Praeteritum_example": [
+      "Er empfing uns mit offenen Armen.",
+      "Das Radio empfing nur Rauschen.",
+      "Sie empfing den Brief gestern."
+    ],
+    "Perfekt": "hat empfangen",
+    "Perfekt_example": [
+      "Wir haben die Nachricht empfangen.",
+      "Man hat ihn wie einen König empfangen.",
+      "Ich habe dein Paket empfangen."
+    ]
+  },
+  "entstehen": {
+    "Praesens": "entsteht",
+    "Praesens_example": [
+      "Hier entsteht ein neues Haus.",
+      "Wie entsteht Wind?",
+      "Daraus entsteht ein Problem."
+    ],
+    "Praeteritum": "entstand",
+    "Praeteritum_example": [
+      "Ein Streit entstand aus dem Nichts.",
+      "Das Bild entstand im Jahr 1920.",
+      "Hohe Kosten entstanden."
+    ],
+    "Perfekt": "ist entstanden",
+    "Perfekt_example": [
+      "Ein großer Schaden ist entstanden.",
+      "Wie ist die Welt entstanden?",
+      "Daraus ist eine Freundschaft entstanden."
+    ]
+  },
+  "erfinden": {
+    "Praesens": "erfindet",
+    "Praesens_example": [
+      "Er erfindet eine Ausrede.",
+      "Wer erfindet solche Geschichten?",
+      "Die Firma erfindet neue Technologien."
+    ],
+    "Praeteritum": "erfand",
+    "Praeteritum_example": [
+      "Edison erfand die Glühbirne.",
+      "Sie erfand eine neue Maschine.",
+      "Er erfand das Rad neu."
+    ],
+    "Perfekt": "hat erfunden",
+    "Perfekt_example": [
+      "Wer hat das Telefon erfunden?",
+      "Er hat die Geschichte nur erfunden.",
+      "Sie haben eine Lösung erfunden."
+    ]
+  },
+  "erhalten": {
+    "Praesens": "erhält",
+    "Praesens_example": [
+      "Sie erhält einen Brief.",
+      "Das Gebäude erhält einen neuen Anstrich.",
+      "Er erhält den ersten Preis."
+    ],
+    "Praeteritum": "erhielt",
+    "Praeteritum_example": [
+      "Wir erhielten die Nachricht gestern.",
+      "Er erhielt keine Antwort.",
+      "Die Stadt erhielt das Stadtrecht."
+    ],
+    "Perfekt": "hat erhalten",
+    "Perfekt_example": [
+      "Haben Sie meine E-Mail erhalten?",
+      "Er hat das Paket erhalten.",
+      "Wir haben Unterstützung erhalten."
+    ]
+  },
+  "erziehen": {
+    "Praesens": "erzieht",
+    "Praesens_example": [
+      "Sie erzieht ihre Kinder streng.",
+      "Das Leben erzieht uns.",
+      "Er erzieht den Hund."
+    ],
+    "Praeteritum": "erzog",
+    "Praeteritum_example": [
+      "Die Großmutter erzog die Enkel.",
+      "Er erzog sie zur Höflichkeit.",
+      "Sie erzogen ihn zweisprachig."
+    ],
+    "Perfekt": "hat erzogen",
+    "Perfekt_example": [
+      "Sie haben ihre Kinder gut erzogen.",
+      "Er hat mich zur Geduld erzogen.",
+      "Wer hat dich so erzogen?"
+    ]
+  },
+  "erschrecken": {
+    "Praesens": "erschrickt",
+    "Praesens_example": [
+      "Er erschrickt leicht.",
+      "Sie erschrickt vor der Spinne.",
+      "Das Kind erschrickt bei lauten Geräuschen."
+    ],
+    "Praeteritum": "erschrak",
+    "Praeteritum_example": [
+      "Sie erschrak zu Tode.",
+      "Er erschrak, als die Tür zuschlug.",
+      "Ich erschrak vor seinem Gesicht."
+    ],
+    "Perfekt": "ist erschrocken",
+    "Perfekt_example": [
+      "Bist du erschrocken?",
+      "Ich bin über den Preis erschrocken.",
+      "Sie ist furchtbar erschrocken."
+    ]
+  },
+  "fliehen": {
+    "Praesens": "flieht",
+    "Praesens_example": [
+      "Der Dieb flieht vor der Polizei.",
+      "Die Bevölkerung flieht aus der Stadt.",
+      "Er flieht in die Arbeit."
+    ],
+    "Praeteritum": "floh",
+    "Praeteritum_example": [
+      "Die Familie floh über die Grenze.",
+      "Er floh aus dem Gefängnis.",
+      "Sie floh vor dem Lärm."
+    ],
+    "Perfekt": "ist geflohen",
+    "Perfekt_example": [
+      "Der Täter ist geflohen.",
+      "Viele Menschen sind geflohen.",
+      "Er ist ins Ausland geflohen."
+    ]
+  },
+  "fließen": {
+    "Praesens": "fließt",
+    "Praesens_example": [
+      "Der Rhein fließt durch Köln.",
+      "Das Wasser fließt schnell.",
+      "Strom fließt durch das Kabel."
+    ],
+    "Praeteritum": "floss",
+    "Praeteritum_example": [
+      "Der Wein floss in Strömen.",
+      "Tränen flossen über ihr Gesicht.",
+      "Der Verkehr floss ruhig."
+    ],
+    "Perfekt": "ist geflossen",
+    "Perfekt_example": [
+      "Viel Wasser ist den Bach runtergeflossen.",
+      "Blut ist geflossen.",
+      "Geld ist in das Projekt geflossen."
+    ]
+  },
+  "fressen": {
+    "Praesens": "frisst",
+    "Praesens_example": [
+      "Der Löwe frisst Fleisch.",
+      "Die Maschine frisst viel Strom.",
+      "Das frisst mir die Haare vom Kopf."
+    ],
+    "Praeteritum": "fraß",
+    "Praeteritum_example": [
+      "Der Hund fraß den Knochen.",
+      "Das Feuer fraß sich durch das Holz.",
+      "Der Rost fraß am Metall."
+    ],
+    "Perfekt": "hat gefressen",
+    "Perfekt_example": [
+      "Die Katze hat das Futter gefressen.",
+      "Hat er das wirklich gefressen?",
+      "Die Inflation hat die Ersparnisse gefressen."
+    ]
+  },
+  "frieren": {
+    "Praesens": "friert",
+    "Praesens_example": [
+      "Mich friert es.",
+      "Der See friert im Winter zu.",
+      "Er friert an den Händen."
+    ],
+    "Praeteritum": "fror",
+    "Praeteritum_example": [
+      "Ich fror gestern sehr.",
+      "Das Wasser fror in der Leitung.",
+      "Sie fror trotz des Mantels."
+    ],
+    "Perfekt": "hat gefroren",
+    "Perfekt_example": [
+      "Wir haben erbärmlich gefroren.",
+      "Der Boden hat gefroren.",
+      "Es hat heute Nacht gefroren."
+    ]
+  },
+  "gelingen": {
+    "Praesens": "gelingt",
+    "Praesens_example": [
+      "Der Kuchen gelingt mir immer.",
+      "Es gelingt ihm nicht, ruhig zu bleiben.",
+      "Der Plan gelingt."
+    ],
+    "Praeteritum": "gelang",
+    "Praeteritum_example": [
+      "Die Flucht gelang ihm.",
+      "Das Experiment gelang beim ersten Mal.",
+      "Es gelang uns, pünktlich zu sein."
+    ],
+    "Perfekt": "ist gelungen",
+    "Perfekt_example": [
+      "Die Überraschung ist gelungen.",
+      "Es ist mir endlich gelungen.",
+      "Das Foto ist gut gelungen."
+    ]
+  },
+  "gelten": {
+    "Praesens": "gilt",
+    "Praesens_example": [
+      "Das Angebot gilt nur heute.",
+      "Er gilt als Experte.",
+      "Die Regel gilt für alle."
+    ],
+    "Praeteritum": "galt",
+    "Praeteritum_example": [
+      "Die Karte galt nur bis gestern.",
+      "Sein Interesse galt der Musik.",
+      "Er galt als verschollen."
+    ],
+    "Perfekt": "hat gegolten",
+    "Perfekt_example": [
+      "Die Wette hat gegolten.",
+      "Das Verbot hat für alle gegolten.",
+      "Sein Wort hat viel gegolten."
+    ]
+  },
+  "genießen": {
+    "Praesens": "genießt",
+    "Praesens_example": [
+      "Sie genießt die Sonne.",
+      "Er genießt sein Leben.",
+      "Wir genießen das gute Essen."
+    ],
+    "Praeteritum": "genoss",
+    "Praeteritum_example": [
+      "Er genoss den Abend.",
+      "Sie genoss eine gute Ausbildung.",
+      "Wir genossen die Aussicht."
+    ],
+    "Perfekt": "hat genossen",
+    "Perfekt_example": [
+      "Habt ihr den Urlaub genossen?",
+      "Ich habe die Ruhe genossen.",
+      "Er hat großes Vertrauen genossen."
+    ]
+  },
+  "geschehen": {
+    "Praesens": "geschieht",
+    "Praesens_example": [
+      "Was geschieht jetzt?",
+      "Es geschieht ihm recht.",
+      "Ein Wunder geschieht."
+    ],
+    "Praeteritum": "geschah",
+    "Praeteritum_example": [
+      "Es geschah am hellichten Tag.",
+      "Das Unglück geschah gestern.",
+      "Nichts geschah."
+    ],
+    "Perfekt": "ist geschehen",
+    "Perfekt_example": [
+      "Was ist geschehen?",
+      "Es ist nichts Schlimmes geschehen.",
+      "Dein Wille ist geschehen."
+    ]
+  },
+  "klingen": {
+    "Praesens": "klingt",
+    "Praesens_example": [
+      "Das klingt interessant.",
+      "Die Glocke klingt hell.",
+      "Seine Stimme klingt traurig."
+    ],
+    "Praeteritum": "klang",
+    "Praeteritum_example": [
+      "Das Lied klang wunderschön.",
+      "Es klang wie ein Schuss.",
+      "Ihre Worte klangen hohl."
+    ],
+    "Perfekt": "hat geklungen",
+    "Perfekt_example": [
+      "Das hat gut geklungen.",
+      "Es hat wie Glas geklungen.",
+      "Seine Entschuldigung hat ehrlich geklungen."
+    ]
+  },
+  "kriechen": {
+    "Praesens": "kriecht",
+    "Praesens_example": [
+      "Die Schlange kriecht durch das Gras.",
+      "Die Zeit kriecht dahin.",
+      "Er kriecht unter den Tisch."
+    ],
+    "Praeteritum": "kroch",
+    "Praeteritum_example": [
+      "Das Baby kroch über den Boden.",
+      "Er kroch in sein Zelt.",
+      "Die Katze kroch unter das Sofa."
+    ],
+    "Perfekt": "ist gekrochen",
+    "Perfekt_example": [
+      "Die Schnecke ist über den Weg gekrochen.",
+      "Er ist aus dem Bett gekrochen.",
+      "Das Tier ist in die Höhle gekrochen."
+    ]
+  },
+  "leiden": {
+    "Praesens": "leidet",
+    "Praesens_example": [
+      "Er leidet an einer Grippe.",
+      "Sie leidet unter dem Lärm.",
+      "Das Geschäft leidet unter der Krise."
+    ],
+    "Praeteritum": "litt",
+    "Praeteritum_example": [
+      "Er litt große Schmerzen.",
+      "Sie litt sehr unter der Trennung.",
+      "Das Volk litt Hunger."
+    ],
+    "Perfekt": "hat gelitten",
+    "Perfekt_example": [
+      "Er hat genug gelitten.",
+      "Die Qualität hat gelitten.",
+      "Sie haben unter der Hitze gelitten."
+    ]
+  },
+  "messen": {
+    "Praesens": "misst",
+    "Praesens_example": [
+      "Der Arzt misst den Blutdruck.",
+      "Er misst das Zimmer aus.",
+      "Sie misst Fieber."
+    ],
+    "Praeteritum": "maß",
+    "Praeteritum_example": [
+      "Er maß die Länge des Tisches.",
+      "Sie maß ihn mit einem Blick.",
+      "Der Schneider maß den Stoff."
+    ],
+    "Perfekt": "hat gemessen",
+    "Perfekt_example": [
+      "Hast du die Zeit gemessen?",
+      "Wir haben die Temperatur gemessen.",
+      "Er hat sich mit ihm gemessen."
+    ]
+  },
+  "müssen": {
+    "Praesens": "muss",
+    "Praesens_example": [
+      "Ich muss jetzt gehen.",
+      "Das muss ein Irrtum sein.",
+      "Jeder muss mal sterben."
+    ],
+    "Praeteritum": "musste",
+    "Praeteritum_example": [
+      "Er musste lange warten.",
+      "Wir mussten lachen.",
+      "Sie musste zum Arzt."
+    ],
+    "Perfekt": "hat gemusst",
+    "Perfekt_example": [
+      "Er hat es tun gemusst (oder: er hat es tun müssen).",
+      "Ich habe nicht gemusst.",
+      "Sie hat nach Hause gemusst."
+    ]
+  },
+  "nennen": {
+    "Praesens": "nennt",
+    "Praesens_example": [
+      "Er nennt seinen Namen.",
+      "Man nennt ihn 'Boss'.",
+      "Sie nennt die Gründe."
+    ],
+    "Praeteritum": "nannte",
+    "Praeteritum_example": [
+      "Sie nannte ihn einen Lügner.",
+      "Er nannte mir den Preis.",
+      "Wir nannten das Kind Paul."
+    ],
+    "Perfekt": "hat genannt",
+    "Perfekt_example": [
+      "Er hat mir keine Details genannt.",
+      "Wie haben sie das Baby genannt?",
+      "Du hast das Problem beim Namen genannt."
+    ]
+  },
+  "pfeifen": {
+    "Praesens": "pfeift",
+    "Praesens_example": [
+      "Der Schiedsrichter pfeift das Spiel an.",
+      "Er pfeift ein Lied.",
+      "Der Wind pfeift durch die Ritzen."
+    ],
+    "Praeteritum": "pfiff",
+    "Praeteritum_example": [
+      "Er pfiff seinem Hund.",
+      "Die Lokomotive pfiff.",
+      "Der Mann pfiff laut."
+    ],
+    "Perfekt": "hat gepfiffen",
+    "Perfekt_example": [
+      "Der Schiedsrichter hat Abseits gepfiffen.",
+      "Jemand hat gepfiffen.",
+      "Ich habe auf seine Meinung gepfiffen."
+    ]
+  },
+  "reiben": {
+    "Praesens": "reibt",
+    "Praesens_example": [
+      "Sie reibt sich die Augen.",
+      "Er reibt den Käse.",
+      "Der Schuh reibt an der Ferse."
+    ],
+    "Praeteritum": "rieb",
+    "Praeteritum_example": [
+      "Er rieb sich die Hände.",
+      "Sie rieb die Flecken weg.",
+      "Aladdin rieb an der Lampe."
+    ],
+    "Perfekt": "hat gerieben",
+    "Perfekt_example": [
+      "Ich habe die Kartoffeln gerieben.",
+      "Er hat sich mit Salbe eingerieben.",
+      "Sie hat sich verwundert die Augen gerieben."
+    ]
+  },
+  "reißen": {
+    "Praesens": "reißt",
+    "Praesens_example": [
+      "Der Strick reißt.",
+      "Er reißt das Papier durch.",
+      "Sie reißt Witze."
+    ],
+    "Praeteritum": "riss",
+    "Praeteritum_example": [
+      "Der Film riss.",
+      "Er riss die Tür auf.",
+      "Das Seil riss unter der Last."
+    ],
+    "Perfekt": "hat gerissen",
+    "Perfekt_example": [
+      "Die Geduld ist gerissen (hat gerissen).",
+      "Er hat das Blatt aus dem Buch gerissen.",
+      "Der Wolf hat ein Schaf gerissen."
+    ]
+  },
+  "reiten": {
+    "Praesens": "reitet",
+    "Praesens_example": [
+      "Sie reitet gerne Pferde.",
+      "Er reitet auf einem Kamel.",
+      "Der Teufel reitet ihn."
+    ],
+    "Praeteritum": "ritt",
+    "Praeteritum_example": [
+      "Sie ritt durch den Wald.",
+      "Er ritt schnell davon.",
+      "Wir ritten am Strand."
+    ],
+    "Perfekt": "ist geritten",
+    "Perfekt_example": [
+      "Ich bin noch nie geritten.",
+      "Sie ist auf dem Pony geritten.",
+      "Er ist eine Stunde geritten."
+    ]
+  },
+  "rennen": {
+    "Praesens": "rennt",
+    "Praesens_example": [
+      "Das Kind rennt über die Straße.",
+      "Er rennt um sein Leben.",
+      "Die Zeit rennt."
+    ],
+    "Praeteritum": "rannte",
+    "Praeteritum_example": [
+      "Sie rannte zum Bus.",
+      "Er rannte gegen die Tür.",
+      "Wir rannten so schnell wir konnten."
+    ],
+    "Perfekt": "ist gerannt",
+    "Perfekt_example": [
+      "Er ist nach Hause gerannt.",
+      "Wir sind um die Wette gerannt.",
+      "Sie ist in ihr Unglück gerannt."
+    ]
+  },
+  "scheinen": {
+    "Praesens": "scheint",
+    "Praesens_example": [
+      "Die Sonne scheint.",
+      "Es scheint zu regnen.",
+      "Er scheint müde zu sein."
+    ],
+    "Praeteritum": "schien",
+    "Praeteritum_example": [
+      "Der Mond schien hell.",
+      "Es schien alles in Ordnung.",
+      "Die Lage schien aussichtslos."
+    ],
+    "Perfekt": "hat geschienen",
+    "Perfekt_example": [
+      "Die Sonne hat den ganzen Tag geschienen.",
+      "Es hat mir so geschienen.",
+      "Die Lampe hat ins Fenster geschienen."
+    ]
+  },
+  "schieben": {
+    "Praesens": "schiebt",
+    "Praesens_example": [
+      "Er schiebt den Einkaufswagen.",
+      "Sie schiebt die Schuld auf ihn.",
+      "Wir schieben das Auto an."
+    ],
+    "Praeteritum": "schob",
+    "Praeteritum_example": [
+      "Er schob das Geld über den Tisch.",
+      "Sie schob den Kinderwagen.",
+      "Er schob Dienst."
+    ],
+    "Perfekt": "hat geschoben",
+    "Perfekt_example": [
+      "Wir haben das Sofa zur Seite geschoben.",
+      "Er hat Überstunden geschoben.",
+      "Sie hat den Teller weg geschoben."
+    ]
+  },
+  "schießen": {
+    "Praesens": "schießt",
+    "Praesens_example": [
+      "Der Jäger schießt.",
+      "Er schießt ein Tor.",
+      "Das Blut schießt ihm in den Kopf."
+    ],
+    "Praeteritum": "schoss",
+    "Praeteritum_example": [
+      "Er schoss den Ball ins Aus.",
+      "Der Polizist schoss in die Luft.",
+      "Sie schoss ein Foto."
+    ],
+    "Perfekt": "hat geschossen",
+    "Perfekt_example": [
+      "Er hat einen Vogel geschossen.",
+      "Wer hat das Tor geschossen?",
+      "Sie hat ein tolles Foto geschossen."
+    ]
+  },
+  "schlagen": {
+    "Praesens": "schlägt",
+    "Praesens_example": [
+      "Das Herz schlägt.",
+      "Die Uhr schlägt zwölf.",
+      "Er schlägt den Nagel in die Wand."
+    ],
+    "Praeteritum": "schlug",
+    "Praeteritum_example": [
+      "Der Blitz schlug ein.",
+      "Sie schlug die Tür zu.",
+      "Er schlug ihn ins Gesicht."
+    ],
+    "Perfekt": "hat geschlagen",
+    "Perfekt_example": [
+      "Die Uhr hat geschlagen.",
+      "Wir haben sie geschlagen (besiegt).",
+      "Er hat Sahne geschlagen."
+    ]
+  },
+  "schleichen": {
+    "Praesens": "schleicht",
+    "Praesens_example": [
+      "Die Katze schleicht sich an.",
+      "Er schleicht aus dem Zimmer.",
+      "Der Fehler schleicht sich ein."
+    ],
+    "Praeteritum": "schlich",
+    "Praeteritum_example": [
+      "Er schlich auf Zehenspitzen.",
+      "Der Fuchs schlich um den Stall.",
+      "Sie schlich sich davon."
+    ],
+    "Perfekt": "ist geschlichen",
+    "Perfekt_example": [
+      "Er ist leise ins Haus geschlichen.",
+      "Die Katze ist durch den Garten geschlichen.",
+      "Ein Fehler ist in den Text geschlichen."
+    ]
+  },
+  "schmeißen": {
+    "Praesens": "schmeißt",
+    "Praesens_example": [
+      "Er schmeißt den Müll weg.",
+      "Sie schmeißt eine Party.",
+      "Er schmeißt die Schule."
+    ],
+    "Praeteritum": "schmiss",
+    "Praeteritum_example": [
+      "Sie schmiss das Glas an die Wand.",
+      "Er schmiss ihn raus.",
+      "Sie schmiss den Laden alleine."
+    ],
+    "Perfekt": "hat geschmissen",
+    "Perfekt_example": [
+      "Er hat den Stein geschmissen.",
+      "Sie hat die Schule geschmissen.",
+      "Wer hat das Glas umgeschmissen?"
+    ]
+  },
+  "sinken": {
+    "Praesens": "sinkt",
+    "Praesens_example": [
+      "Das Schiff sinkt langsam.",
+      "Die Temperatur sinkt in der Nacht.",
+      "Sein Mut sinkt."
+    ],
+    "Praeteritum": "sank",
+    "Praeteritum_example": [
+      "Die Titanic sank 1912.",
+      "Der Preis für Öl sank drastisch.",
+      "Sie sank erschöpft in den Sessel."
+    ],
+    "Perfekt": "ist gesunken",
+    "Perfekt_example": [
+      "Das Boot ist auf den Grund gesunken.",
+      "Die Arbeitslosigkeit ist gesunken.",
+      "Sein Fieber ist gesunken."
+    ]
+  },
+  "stehlen": {
+    "Praesens": "stiehlt",
+    "Praesens_example": [
+      "Er stiehlt ihr die Show.",
+      "Wer stiehlt denn ein Fahrrad?",
+      "Sie stiehlt sich leise davon."
+    ],
+    "Praeteritum": "stahl",
+    "Praeteritum_example": [
+      "Der Dieb stahl die Juwelen.",
+      "Er stahl sich in mein Herz.",
+      "Sie stahl ihm die Zeit."
+    ],
+    "Perfekt": "hat gestohlen",
+    "Perfekt_example": [
+      "Jemand hat mein Portemonnaie gestohlen.",
+      "Er hat mir die Idee gestohlen.",
+      "Sie haben das Auto gestohlen."
+    ]
+  },
+  "steigen": {
+    "Praesens": "steigt",
+    "Praesens_example": [
+      "Der Drachen steigt hoch in die Luft.",
+      "Die Spannung steigt.",
+      "Er steigt auf den Berg."
+    ],
+    "Praeteritum": "stieg",
+    "Praeteritum_example": [
+      "Der Rauch stieg auf.",
+      "Er stieg aus dem Bus.",
+      "Die Aktie stieg gestern."
+    ],
+    "Perfekt": "ist gestiegen",
+    "Perfekt_example": [
+      "Die Mieten sind gestiegen.",
+      "Er ist auf die Leiter gestiegen.",
+      "Das Wasser ist gestiegen."
+    ]
+  },
+  "stinken": {
+    "Praesens": "stinkt",
+    "Praesens_example": [
+      "Der Müll stinkt fürchterlich.",
+      "Das stinkt zum Himmel.",
+      "Eigenlob stinkt."
+    ],
+    "Praeteritum": "stank",
+    "Praeteritum_example": [
+      "Es stank nach verbranntem Gummi.",
+      "Der ganze Raum stank nach Rauch.",
+      "Der Fisch stank bereits."
+    ],
+    "Perfekt": "hat gestunken",
+    "Perfekt_example": [
+      "Es hat hier gestern gestunken.",
+      "Die Angelegenheit hat gewaltig gestunken.",
+      "Seine Kleidung hat nach Essen gestunken."
+    ]
+  },
+  "stoßen": {
+    "Praesens": "stößt",
+    "Praesens_example": [
+      "Er stößt sich den Kopf.",
+      "Sie stößt ihn zur Seite.",
+      "Das Auto stößt Abgase aus."
+    ],
+    "Praeteritum": "stieß",
+    "Praeteritum_example": [
+      "Er stieß auf Gold.",
+      "Sie stieß das Glas um.",
+      "Ich stieß mir den Zeh."
+    ],
+    "Perfekt": "hat gestoßen",
+    "Perfekt_example": [
+      "Ich habe mich gestoßen.",
+      "Er hat sie versehentlich gestoßen.",
+      "Wir haben auf den Erfolg angestoßen."
+    ]
+  },
+  "streiten": {
+    "Praesens": "streitet",
+    "Praesens_example": [
+      "Er streitet oft mit seinem Bruder.",
+      "Über Geschmack streitet man nicht.",
+      "Sie streitet alles ab."
+    ],
+    "Praeteritum": "stritt",
+    "Praeteritum_example": [
+      "Das Paar stritt sich laut.",
+      "Er stritt für seine Rechte.",
+      "Sie stritt die Tat ab."
+    ],
+    "Perfekt": "hat gestritten",
+    "Perfekt_example": [
+      "Wir haben uns lange gestritten.",
+      "Haben sie schon wieder gestritten?",
+      "Er hat für die gute Sache gestritten."
+    ]
+  },
+  "treiben": {
+    "Praesens": "treibt",
+    "Praesens_example": [
+      "Der Wind treibt die Wolken.",
+      "Er treibt viel Sport.",
+      "Was treibt dich hierher?"
+    ],
+    "Praeteritum": "trieb",
+    "Praeteritum_example": [
+      "Der Hirte trieb die Schafe.",
+      "Hunger trieb ihn zum Diebstahl.",
+      "Das Boot trieb auf dem Meer."
+    ],
+    "Perfekt": "hat getrieben",
+    "Perfekt_example": [
+      "Was hast du gestern getrieben?",
+      "Der Sturm hat das Schiff an Land getrieben.",
+      "Er hat es zu bunt getrieben."
+    ]
+  },
+  "treten": {
+    "Praesens": "tritt",
+    "Praesens_example": [
+      "Er tritt in den Verein ein.",
+      "Sie tritt leise auf.",
+      "Das Pferd tritt aus."
+    ],
+    "Praeteritum": "trat",
+    "Praeteritum_example": [
+      "Er trat in eine Pfütze.",
+      "Sie trat zur Seite.",
+      "Der Minister trat zurück."
+    ],
+    "Perfekt": "hat getreten",
+    "Perfekt_example": [
+      "Er hat den Ball getreten.",
+      "Sie hat mir auf den Fuß getreten.",
+      "Ich habe in ein Fettnäpfchen getreten."
+    ]
+  },
+  "übernehmen": {
+    "Praesens": "übernimmt",
+    "Praesens_example": [
+      "Er übernimmt die Firma.",
+      "Sie übernimmt die Verantwortung.",
+      "Der Computer übernimmt die Arbeit."
+    ],
+    "Praeteritum": "übernahm",
+    "Praeteritum_example": [
+      "Sie übernahm die Führung.",
+      "Er übernahm sich beim Sport.",
+      "Wir übernahmen die Kosten."
+    ],
+    "Perfekt": "hat übernommen",
+    "Perfekt_example": [
+      "Er hat das Geschäft übernommen.",
+      "Sie hat sich mit der Arbeit übernommen.",
+      "Wer hat die Leitung übernommen?"
+    ]
+  },
+  "verbieten": {
+    "Praesens": "verbietet",
+    "Praesens_example": [
+      "Das Gesetz verbietet das Rauchen hier.",
+      "Der Vater verbietet den Umgang.",
+      "Das verbietet mir mein Stolz."
+    ],
+    "Praeteritum": "verbot",
+    "Praeteritum_example": [
+      "Die Lehrerin verbot das Handy.",
+      "Man verbot ihm das Wort.",
+      "Die Stadt verbot die Versammlung."
+    ],
+    "Perfekt": "hat verboten",
+    "Perfekt_example": [
+      "Der Arzt hat mir Alkohol verboten.",
+      "Wer hat dir das verboten?",
+      "Man hat den Film verboten."
+    ]
+  },
+  "verbringen": {
+    "Praesens": "verbringt",
+    "Praesens_example": [
+      "Sie verbringt ihren Urlaub am Meer.",
+      "Er verbringt viel Zeit am Computer.",
+      "Wir verbringen den Abend zusammen."
+    ],
+    "Praeteritum": "verbrachte",
+    "Praeteritum_example": [
+      "Er verbrachte seine Kindheit in Berlin.",
+      "Wir verbrachten schöne Tage dort.",
+      "Sie verbrachte das Wochenende im Bett."
+    ],
+    "Perfekt": "hat verbracht",
+    "Perfekt_example": [
+      "Wo hast du die Ferien verbracht?",
+      "Ich habe den Tag im Park verbracht.",
+      "Sie haben Wunder zusammen verbracht."
+    ]
+  },
+  "vergehen": {
+    "Praesens": "vergeht",
+    "Praesens_example": [
+      "Die Zeit vergeht wie im Flug.",
+      "Ihm vergeht das Lachen.",
+      "Kein Tag vergeht ohne Nachrichten."
+    ],
+    "Praeteritum": "verging",
+    "Praeteritum_example": [
+      "Ihm verging der Appetit.",
+      "Die Woche verging schnell.",
+      "Sie verging sich an fremdem Eigentum."
+    ],
+    "Perfekt": "ist vergangen",
+    "Perfekt_example": [
+      "Der Schmerz ist vergangen.",
+      "Die Lust ist mir vergangen.",
+      "Viel Zeit ist vergangen."
+    ]
+  },
+  "versprechen": {
+    "Praesens": "verspricht",
+    "Praesens_example": [
+      "Er verspricht, pünktlich zu sein.",
+      "Das Wetter verspricht gut zu werden.",
+      "Sie verspricht sich oft, wenn sie nervös ist."
+    ],
+    "Praeteritum": "versprach",
+    "Praeteritum_example": [
+      "Er versprach ihr die Ehe.",
+      "Der Abend versprach langweilig zu werden.",
+      "Sie versprach, nichts zu sagen."
+    ],
+    "Perfekt": "hat versprochen",
+    "Perfekt_example": [
+      "Du hast es mir versprochen!",
+      "Der Politiker hat viel versprochen.",
+      "Er hat sich bei der Rede versprochen."
+    ]
+  },
+  "wachsen": {
+    "Praesens": "wächst",
+    "Praesens_example": [
+      "Das Kind wächst schnell.",
+      "Gras wächst über die Sache.",
+      "Der Widerstand wächst."
+    ],
+    "Praeteritum": "wuchs",
+    "Praeteritum_example": [
+      "Er wuchs zweisprachig auf.",
+      "Die Pflanze wuchs prächtig.",
+      "Unsicherheit wuchs in ihm."
+    ],
+    "Perfekt": "ist gewachsen",
+    "Perfekt_example": [
+      "Du bist aber gewachsen!",
+      "Die Stadt ist stark gewachsen.",
+      "Er ist der Aufgabe nicht gewachsen."
+    ]
+  },
+  "wiegen": {
+    "Praesens": "wiegt",
+    "Praesens_example": [
+      "Der Händler wiegt das Obst.",
+      "Er wiegt 80 Kilogramm.",
+      "Die Mutter wiegt das Kind."
+    ],
+    "Praeteritum": "wog",
+    "Praeteritum_example": [
+      "Der Koffer wog zu viel.",
+      "Sie wog die Zutaten ab.",
+      "Das Argument wog schwer."
+    ],
+    "Perfekt": "hat gewogen",
+    "Perfekt_example": [
+      "Ich habe mich heute Morgen gewogen.",
+      "Der Arzt hat das Baby gewogen.",
+      "Man hat ihn in Sicherheit gewogen."
+    ]
+  },
+  "zwingen": {
+    "Praesens": "zwingt",
+    "Praesens_example": [
+      "Niemand zwingt dich dazu.",
+      "Der Regen zwingt uns ins Haus.",
+      "Er zwingt sich zu einem Lächeln."
+    ],
+    "Praeteritum": "zwang",
+    "Praeteritum_example": [
+      "Die Not zwang ihn zum Handeln.",
+      "Er zwang die Tür auf.",
+      "Sie zwangen ihn zur Unterschrift."
+    ],
+    "Perfekt": "hat gezwungen",
+    "Perfekt_example": [
+      "Das Wetter hat uns zur Umkehr gezwungen.",
+      "Man hat mich dazu gezwungen.",
+      "Er hat sein Glück gezwungen."
+    ]
+  }
+  
+}
+

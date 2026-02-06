@@ -1,0 +1,52 @@
+.landscape-warning {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(20, 40, 50, 0.95);
+    z-index: 9999;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+.landscape-warning svg {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 1.5rem;
+    animation: rotate-phone 2s ease-in-out infinite;
+}
+
+.landscape-warning h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.landscape-warning p {
+    color: #7F8C8D;
+    font-size: 1rem;
+}
+
+@keyframes rotate-phone {
+
+    0%,
+    100% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(-15deg);
+    }
+
+    75% {
+        transform: rotate(90deg);
+    }
+}
+
+@media (orientation: portrait) and (max-width: 768px) {
+    .landscape-warning {
+        display: flex;
+    }
+}

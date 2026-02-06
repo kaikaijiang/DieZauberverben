@@ -1,0 +1,295 @@
+.verb-ninja-page {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: none;
+}
+
+.ninja-game-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 0.5rem 1rem;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 20;
+}
+
+.ninja-score {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1.25rem;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: var(--border-radius-xl);
+    box-shadow: var(--shadow-md);
+}
+
+.score-icon {
+    font-size: 1.5rem;
+}
+
+.score-value {
+    font-size: 1.75rem;
+    font-weight: 800;
+    color: var(--color-primary);
+}
+
+.perfect-count {
+    padding: 0.5rem 1rem;
+    background: linear-gradient(135deg, #FFD700, #FFA500);
+    border-radius: var(--border-radius-xl);
+    color: white;
+    font-weight: 700;
+    font-size: 1.25rem;
+    animation: pulse 0.5s ease;
+}
+
+/* Hint Display */
+.hint-display {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 30;
+    transition: all 0.5s ease;
+    pointer-events: none;
+}
+
+.hint-display.faded {
+    top: 8rem;
+    left: auto;
+    right: 1rem;
+    transform: translate(0, 0) scale(0.6);
+    opacity: 0.9;
+}
+
+.hint-content {
+    background: rgba(255, 255, 255, 0.98);
+    padding: 1.5rem 2.5rem;
+    border-radius: var(--border-radius-lg);
+    box-shadow: var(--shadow-lg), 0 0 40px rgba(93, 173, 226, 0.3);
+}
+
+.hint-label {
+    font-size: 1rem;
+    color: var(--color-text-muted);
+    margin-bottom: 0.5rem;
+}
+
+.hint-verb {
+    font-size: 3rem;
+    font-weight: 800;
+    padding: 0.25rem 0.75rem;
+    border-radius: var(--border-radius-md);
+    color: white;
+}
+
+.hint-tense {
+    font-size: 0.9rem;
+    color: var(--color-text-muted);
+    margin-top: 0.5rem;
+}
+
+/* Game Area */
+.ninja-game-area {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+    cursor: crosshair;
+}
+
+.ninja-game-area[data-gameover="true"] {
+    pointer-events: none;
+}
+
+/* Falling Verb - Fruit Style */
+.falling-verb {
+    position: absolute;
+    top: -120px;
+    transform: translateX(-50%);
+    padding: 1rem 2rem;
+    border-radius: 50%;
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    animation: fruitFall 10s linear forwards;
+    box-shadow:
+        0 10px 30px rgba(0, 0, 0, 0.3),
+        inset 0 -5px 20px rgba(0, 0, 0, 0.2),
+        inset 0 5px 20px rgba(255, 255, 255, 0.3);
+    pointer-events: none;
+    z-index: 10;
+}
+
+.falling-verb.fruit-style {
+    border-radius: 45% 55% 50% 50%;
+}
+
+.verb-text {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    word-break: break-word;
+    max-width: 120px;
+}
+
+@keyframes fruitFall {
+    0% {
+        top: -120px;
+        transform: translateX(-50%) rotate(0deg);
+    }
+
+    100% {
+        top: calc(100% + 120px);
+        transform: translateX(-50%) rotate(360deg);
+    }
+}
+
+/* Juice Splash Effect */
+.juice-splash {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    z-index: 50;
+}
+
+.splash-center {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: splashCenter 0.6s ease-out forwards;
+}
+
+.splash-particle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: var(--size);
+    height: var(--size);
+    background: var(--color);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    animation: splashParticle 0.6s ease-out forwards;
+    animation-delay: var(--delay);
+}
+
+@keyframes splashParticle {
+    0% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform:
+            translate(-50%, -50%) rotate(var(--angle)) translateY(calc(var(--distance) * -1)) scale(0);
+        opacity: 0;
+    }
+}
+
+@keyframes splashCenter {
+    0% {
+        transform: translate(-50%, -50%) scale(0);
+        opacity: 1;
+    }
+
+    50% {
+        transform: translate(-50%, -50%) scale(1.5);
+        opacity: 0.8;
+    }
+
+    100% {
+        transform: translate(-50%, -50%) scale(2);
+        opacity: 0;
+    }
+}
+
+/* Slice Trail */
+.slice-trail {
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+}
+
+/* Game Over Overlay */
+.game-over-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    animation: fadeIn 0.3s ease;
+    z-index: 100;
+}
+
+.game-over-overlay h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.game-over-overlay p {
+    font-size: 1.25rem;
+    opacity: 0.8;
+}
+
+@keyframes pulse {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .falling-verb {
+        padding: 0.75rem 1.5rem;
+        min-width: 80px;
+        min-height: 80px;
+        font-size: 1.25rem;
+    }
+
+    .hint-verb {
+        font-size: 2rem;
+    }
+
+    .hint-content {
+        padding: 1rem 1.5rem;
+    }
+
+    .score-value {
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,161 @@
+.verb-select-page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.verb-select-content {
+    flex: 1;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.verb-select-layout {
+    display: flex;
+    gap: 1.5rem;
+    align-items: flex-start;
+}
+
+.mascot-helper {
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.helper-text {
+    background: white;
+    border-radius: var(--border-radius-md);
+    padding: 0.75rem 1rem;
+    box-shadow: var(--shadow-md);
+    max-width: 150px;
+    text-align: center;
+}
+
+.helper-text p {
+    font-size: 0.875rem;
+    color: var(--color-text-dark);
+    margin: 0;
+}
+
+.selection-card {
+    flex: 1;
+    background: white;
+    border-radius: var(--border-radius-lg);
+    padding: 1.5rem;
+    box-shadow: var(--shadow-lg);
+}
+
+.difficulty-section {
+    background: white;
+    border-radius: var(--border-radius-lg);
+    padding: 1rem 1.5rem;
+    box-shadow: var(--shadow-md);
+    text-align: center;
+}
+
+.difficulty-section h3 {
+    color: var(--color-text-dark);
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+}
+
+.difficulty-options {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.difficulty-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 0.75rem 1.5rem;
+    background: #F5F5F5;
+    border: 3px solid transparent;
+    border-radius: var(--border-radius-md);
+    cursor: pointer;
+    transition: all var(--transition-fast);
+    font-family: var(--font-family);
+}
+
+.difficulty-btn:hover {
+    background: #E8E8E8;
+}
+
+.difficulty-btn.active {
+    background: var(--color-primary);
+    border-color: var(--color-primary);
+    color: white;
+}
+
+.diff-label {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.diff-info {
+    font-size: 0.75rem;
+    opacity: 0.8;
+}
+
+.start-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.start-btn {
+    font-size: 1.25rem;
+    padding: 1rem 2.5rem;
+}
+
+.start-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.start-warning {
+    color: var(--color-error);
+    font-size: 0.875rem;
+    font-weight: 600;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 0.25rem 0.75rem;
+    border-radius: var(--border-radius-sm);
+}
+
+@media (max-width: 768px) {
+    .verb-select-layout {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mascot-helper {
+        flex-direction: row;
+    }
+
+    .helper-text {
+        max-width: none;
+    }
+
+    .selection-card {
+        width: 100%;
+    }
+
+    .difficulty-options {
+        gap: 0.5rem;
+    }
+
+    .difficulty-btn {
+        padding: 0.5rem 1rem;
+    }
+}

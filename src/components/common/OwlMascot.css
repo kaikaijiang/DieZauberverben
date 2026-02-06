@@ -1,0 +1,30 @@
+.owl-mascot {
+    display: inline-block;
+    transition: transform var(--transition-normal);
+}
+
+.owl-mascot.animate {
+    animation: owl-float 3s ease-in-out infinite;
+}
+
+.owl-mascot:hover {
+    transform: scale(1.05);
+}
+
+@keyframes owl-float {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-8px);
+    }
+}
+
+.owl-mascot svg {
+    width: 100%;
+    height: 100%;
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
+}

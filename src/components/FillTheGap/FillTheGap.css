@@ -1,0 +1,271 @@
+.fill-gap-page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.fill-loading {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.25rem;
+}
+
+.fill-game-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 0.75rem 1rem;
+    flex-wrap: wrap;
+}
+
+.progress-indicator {
+    display: flex;
+    align-items: baseline;
+    gap: 0.25rem;
+    padding: 0.5rem 1rem;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: var(--border-radius-xl);
+    box-shadow: var(--shadow-md);
+}
+
+.progress-current {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--color-primary);
+}
+
+.progress-sep {
+    font-size: 1rem;
+    color: var(--color-text-muted);
+}
+
+.progress-total {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-text-muted);
+}
+
+.fill-score {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1.25rem;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: var(--border-radius-xl);
+    box-shadow: var(--shadow-md);
+}
+
+.fill-score .score-icon {
+    font-size: 1.25rem;
+}
+
+.fill-score .score-value {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--color-primary);
+}
+
+.fill-streak {
+    padding: 0.5rem 1rem;
+    background: linear-gradient(135deg, #FF6B35, #F7931E);
+    border-radius: var(--border-radius-xl);
+    color: white;
+    font-weight: 700;
+    font-size: 1.25rem;
+    animation: pulse 0.5s ease;
+}
+
+.fill-game-area {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    gap: 2rem;
+}
+
+/* Sentence Styles */
+.sentence-container {
+    background: white;
+    padding: 2rem 3rem;
+    border-radius: var(--border-radius-lg);
+    box-shadow: var(--shadow-lg);
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+}
+
+.sentence-text {
+    font-size: 1.5rem;
+    line-height: 1.8;
+    color: var(--color-text-dark);
+    margin: 0;
+}
+
+.sentence-blank {
+    display: inline-block;
+    min-width: 120px;
+    padding: 0.25rem 0.5rem;
+    margin: 0 0.25rem;
+    border-bottom: 3px dashed var(--color-text-muted);
+    font-weight: 700;
+    transition: all var(--transition-normal);
+}
+
+.sentence-blank.filled {
+    border-bottom-style: solid;
+    border-radius: var(--border-radius-sm);
+    color: white;
+    padding: 0.25rem 0.75rem;
+}
+
+.sentence-blank.correct {
+    animation: correctPop 0.5s ease;
+}
+
+.sentence-blank.wrong {
+    animation: shake 0.4s ease;
+}
+
+@keyframes correctPop {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+/* Options Area */
+.options-area {
+    text-align: center;
+}
+
+.options-instruction {
+    color: white;
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.options-grid {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Draggable Verb Styles */
+.draggable-verb {
+    padding: 1rem 2rem;
+    font-family: var(--font-family);
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: white;
+    border: none;
+    border-radius: var(--border-radius-lg);
+    cursor: pointer;
+    transition: all var(--transition-fast);
+    box-shadow: var(--shadow-md);
+    min-width: 140px;
+}
+
+.draggable-verb:hover:not(:disabled) {
+    transform: translateY(-4px) scale(1.05);
+    box-shadow: var(--shadow-lg);
+}
+
+.draggable-verb:active:not(:disabled) {
+    transform: scale(0.95);
+}
+
+.draggable-verb:disabled {
+    cursor: default;
+    opacity: 0.8;
+}
+
+.draggable-verb.selected {
+    transform: scale(1.05);
+    box-shadow: var(--shadow-lg), 0 0 0 4px white;
+}
+
+.draggable-verb.correct-answer {
+    background: var(--color-success) !important;
+    animation: correctPop 0.5s ease;
+}
+
+.draggable-verb.wrong-answer {
+    background: var(--color-error) !important;
+    animation: shake 0.4s ease;
+}
+
+/* Feedback Message */
+.feedback-message {
+    padding: 1rem 2rem;
+    border-radius: var(--border-radius-lg);
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-align: center;
+    animation: slideUp 0.3s ease;
+}
+
+.feedback-message.correct {
+    background: rgba(39, 174, 96, 0.9);
+    color: white;
+}
+
+.feedback-message.wrong {
+    background: rgba(231, 76, 60, 0.9);
+    color: white;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .sentence-container {
+        padding: 1.5rem 1rem;
+    }
+
+    .sentence-text {
+        font-size: 1.125rem;
+        line-height: 1.6;
+    }
+
+    .sentence-blank {
+        min-width: 80px;
+    }
+
+    .options-grid {
+        gap: 0.75rem;
+    }
+
+    .draggable-verb {
+        padding: 0.75rem 1.25rem;
+        font-size: 1rem;
+        min-width: 100px;
+    }
+
+    .fill-game-area {
+        padding: 1rem;
+        gap: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .sentence-text {
+        font-size: 1rem;
+    }
+
+    .draggable-verb {
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+        min-width: 80px;
+    }
+}
