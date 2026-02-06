@@ -4,6 +4,8 @@
 
 A fun, interactive React game helping German primary school children (ages 8-10) master *starke Verben* through three engaging mini-games.
 
+[Start Game](https://kaikaijiang.github.io/DieZauberverben/)
+
 ## Features
 
 - **🧠 Gedächtnisspiel (Memory Match)**: Match conjugated verb forms to their example sentences.
