@@ -44,12 +44,8 @@ function VerbNinjaGame({ soundEnabled, toggleSound, selectedVerbs, setGameResult
 
     // Get next verb from queue
     const getNextVerb = useCallback(() => {
-        if (verbQueueRef.current.length === 0) {
-            // Refill queue
-            verbQueueRef.current = shuffleArray([...selectedVerbs.filter(v => verbs[v])])
-        }
         return verbQueueRef.current.pop()
-    }, [selectedVerbs])
+    }, [])
 
     // Start a new round
     const startRound = useCallback(() => {
@@ -57,6 +53,21 @@ function VerbNinjaGame({ soundEnabled, toggleSound, selectedVerbs, setGameResult
 
         // Get next verb and random tense for hint
         const verbName = getNextVerb()
+
+        // If no more verbs, game completed!
+        if (!verbName) {
+            setGameResult({
+                game: 'ninja',
+                score,
+                correct: totalStats.correct,
+                mistakes: totalStats.wrong,
+                maxStreak: totalStats.perfect,
+                completed: true
+            })
+            navigate('/result')
+            return
+        }
+
         const verbData = verbs[verbName]
         const tense = getRandomTense()
         const hintForm = verbData[tense]
@@ -77,7 +88,7 @@ function VerbNinjaGame({ soundEnabled, toggleSound, selectedVerbs, setGameResult
                 endRound()
             }, ROUND_DURATION)
         }, 1500) // Show hint for 1.5 seconds before fading
-    }, [gameOver, score, getNextVerb])
+    }, [gameOver, score, getNextVerb, totalStats, navigate, setGameResult])
 
     // Spawn verbs for the round
     const spawnVerbs = useCallback((targetVerbName, targetVerbData, hintTense) => {
@@ -176,6 +187,18 @@ function VerbNinjaGame({ soundEnabled, toggleSound, selectedVerbs, setGameResult
             }
         }, 300)
     }, [score, gameOver, sound, startRound])
+
+    // Check for early round finish (all correct verbs sliced)
+    useEffect(() => {
+        if (roundActive && roundStats.correct >= CORRECT_COUNT) {
+            clearTimeout(roundTimerRef.current)
+            // Add small delay for player to see the last slice
+            const timer = setTimeout(() => {
+                endRound()
+            }, 500)
+            return () => clearTimeout(timer)
+        }
+    }, [roundActive, roundStats, endRound])
 
     // Handle slice on a verb
     const handleSlice = useCallback((verb, x, y) => {
