@@ -6,11 +6,18 @@ import './HomePage.css'
 function HomePage({ soundEnabled, toggleSound }) {
     const games = [
         {
+            id: 'learn',
+            title: 'Verben lernen',
+            emoji: '📖',
+            description: 'Schau dir die Verben an!',
+            color: '#9B59B6'
+        },
+        {
             id: 'flashcards',
             title: 'Verbkarten',
             emoji: '📚',
-            description: 'Lerne die Verben!',
-            color: '#9B59B6'
+            description: 'Test mal!',
+            color: '#8E44AD'
         },
         {
             id: 'memory',
@@ -69,7 +76,7 @@ function HomePage({ soundEnabled, toggleSound }) {
                             <h2 className="game-title">{game.title}</h2>
                             <p className="game-description">{game.description}</p>
                             <div className="game-play-btn">
-                                {game.id === 'flashcards' ? 'Lernen' : 'Spielen'}
+                                {['learn', 'flashcards'].includes(game.id) ? 'Lernen' : 'Spielen'}
                                 <svg viewBox="0 0 24 24" fill="currentColor">
                                     <path d="M8 5v14l11-7z" />
                                 </svg>

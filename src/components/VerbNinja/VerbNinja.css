@@ -124,7 +124,7 @@
     font-weight: 800;
     color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-    animation: fruitFall 10s linear forwards;
+    animation: fruitFall 15s linear forwards;
     box-shadow:
         0 10px 30px rgba(0, 0, 0, 0.3),
         inset 0 -5px 20px rgba(0, 0, 0, 0.2),

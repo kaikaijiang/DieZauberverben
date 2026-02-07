@@ -1,0 +1,328 @@
+.learn-verbs-page {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.learn-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.75rem 1.5rem;
+    gap: 1rem;
+}
+
+.exit-btn {
+    padding: 0.5rem 1rem;
+    background: rgba(255, 255, 255, 0.9);
+    border: none;
+    border-radius: var(--border-radius-md);
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-text);
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.exit-btn:hover {
+    background: white;
+    transform: translateX(-2px);
+}
+
+.progress-container {
+    flex: 1;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.progress-bar {
+    height: 12px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #9B59B6, #8E44AD);
+    border-radius: 6px;
+    transition: width 0.3s ease;
+}
+
+.progress-text {
+    font-size: 0.9rem;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+/* Learn Content */
+.learn-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    gap: 1.5rem;
+}
+
+/* Verb Card */
+.verb-card {
+    width: 100%;
+    max-width: 700px;
+    background: white;
+    border-radius: var(--border-radius-lg);
+    box-shadow: var(--shadow-lg);
+    overflow: hidden;
+}
+
+.verb-card-header {
+    background: linear-gradient(135deg, #9B59B6, #8E44AD);
+    padding: 1.25rem 1.5rem;
+    text-align: center;
+}
+
+.verb-infinitive {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: white;
+    margin: 0;
+}
+
+.verb-card-body {
+    padding: 1.5rem;
+}
+
+.verb-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.verb-row {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.verb-row:last-child {
+    border-bottom: none;
+}
+
+.verb-row td {
+    padding: 1rem 0.75rem;
+    vertical-align: middle;
+}
+
+.label-cell {
+    width: 25%;
+    text-align: right;
+    padding-right: 1rem;
+}
+
+.tense-label {
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.tense-label.grundform {
+    color: var(--color-text);
+}
+
+.form-cell {
+    width: 25%;
+}
+
+.verb-form {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.example-cell {
+    width: 50%;
+}
+
+.example-text {
+    font-size: 1rem;
+    color: var(--color-text-muted);
+    font-style: italic;
+}
+
+.grundform-row {
+    background: rgba(0, 0, 0, 0.02);
+}
+
+/* Navigation Buttons */
+.navigation-buttons {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    max-width: 500px;
+}
+
+.nav-btn {
+    flex: 1;
+    padding: 1rem 1.5rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border: none;
+    border-radius: var(--border-radius-md);
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.nav-prev {
+    background: rgba(255, 255, 255, 0.9);
+    color: var(--color-text);
+}
+
+.nav-prev:hover:not(:disabled) {
+    background: white;
+    transform: translateX(-2px);
+}
+
+.nav-prev:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.nav-next {
+    background: linear-gradient(135deg, #9B59B6, #8E44AD);
+    color: white;
+}
+
+.nav-next:hover {
+    transform: translateX(2px);
+    box-shadow: 0 4px 12px rgba(155, 89, 182, 0.4);
+}
+
+/* Completion Screen */
+.completion-screen {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.completion-content {
+    background: white;
+    padding: 2.5rem;
+    border-radius: var(--border-radius-xl);
+    box-shadow: var(--shadow-lg);
+    text-align: center;
+    max-width: 400px;
+}
+
+.completion-icon {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.completion-content h2 {
+    font-size: 2rem;
+    color: var(--color-text);
+    margin-bottom: 0.5rem;
+}
+
+.completion-message {
+    font-size: 1.1rem;
+    color: var(--color-text-muted);
+    margin-bottom: 1.5rem;
+}
+
+.completion-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.btn-primary,
+.btn-secondary,
+.btn-tertiary {
+    padding: 1rem 1.5rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border: none;
+    border-radius: var(--border-radius-md);
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #9B59B6, #8E44AD);
+    color: white;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(155, 89, 182, 0.4);
+}
+
+.btn-secondary {
+    background: linear-gradient(135deg, #4A90D9, #3A7DC9);
+    color: white;
+}
+
+.btn-secondary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(74, 144, 217, 0.4);
+}
+
+.btn-tertiary {
+    background: rgba(0, 0, 0, 0.1);
+    color: var(--color-text);
+}
+
+.btn-tertiary:hover {
+    background: rgba(0, 0, 0, 0.15);
+}
+
+.loading {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.25rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .verb-card {
+        max-width: 95%;
+    }
+
+    .verb-infinitive {
+        font-size: 2rem;
+    }
+
+    .verb-table td {
+        padding: 0.75rem 0.5rem;
+    }
+
+    .label-cell {
+        width: 30%;
+    }
+
+    .form-cell {
+        width: 25%;
+    }
+
+    .example-cell {
+        width: 45%;
+    }
+
+    .tense-label {
+        font-size: 0.95rem;
+    }
+
+    .verb-form {
+        font-size: 1.1rem;
+    }
+
+    .example-text {
+        font-size: 0.9rem;
+    }
+}

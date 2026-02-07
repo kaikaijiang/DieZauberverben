@@ -2,6 +2,7 @@ import { Routes, Route } from 'react-router-dom'
 import { useState, useCallback } from 'react'
 import HomePage from './pages/HomePage'
 import VerbSelectPage from './pages/VerbSelectPage'
+import LearnVerbsGame from './components/LearnVerbs/LearnVerbsGame'
 import FlashcardsGame from './components/Flashcards/FlashcardsGame'
 import MemoryMatchGame from './components/MemoryMatch/MemoryMatchGame'
 import VerbNinjaGame from './components/VerbNinja/VerbNinjaGame'
@@ -39,6 +40,16 @@ function App() {
                                 soundEnabled={soundEnabled}
                                 toggleSound={toggleSound}
                                 setSelectedVerbs={setSelectedVerbs}
+                            />
+                        }
+                    />
+                    <Route
+                        path="/play/learn"
+                        element={
+                            <LearnVerbsGame
+                                soundEnabled={soundEnabled}
+                                toggleSound={toggleSound}
+                                selectedVerbs={selectedVerbs}
                             />
                         }
                     />

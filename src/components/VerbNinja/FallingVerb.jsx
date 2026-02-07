@@ -7,7 +7,7 @@ function FallingVerb({ verb, onFallOff }) {
     useEffect(() => {
         const timer = setTimeout(() => {
             onFallOff()
-        }, 10000) // Falls completely in 10 seconds (slower pace)
+        }, 15000) // Falls completely in 15 seconds (slower pace)
 
         return () => clearTimeout(timer)
     }, [onFallOff])

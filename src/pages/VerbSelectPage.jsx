@@ -7,6 +7,12 @@ import verbs from '../data/VerbenList.json'
 import './VerbSelectPage.css'
 
 const GAME_INFO = {
+    learn: {
+        title: 'Verben lernen',
+        emoji: '📖',
+        path: '/play/learn',
+        hasDifficulty: false
+    },
     flashcards: {
         title: 'Verbkarten',
         emoji: '📚',

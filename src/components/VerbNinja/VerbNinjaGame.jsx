@@ -10,7 +10,7 @@ import { TENSES, getRandomTense, shuffleArray } from '../../utils/verbHelpers'
 import verbs from '../../data/VerbenList.json'
 import './VerbNinja.css'
 
-const ROUND_DURATION = 10000 // 10 seconds for slicing (slower pace)
+const ROUND_DURATION = 15000 // 15 seconds for slicing (slower pace)
 const SPAWN_COUNT = 7 // 6-7 verbs per round (2 correct + 4-5 distractors)
 const CORRECT_COUNT = 2 // Always 2 correct answers (other two tenses)
 
@@ -132,8 +132,8 @@ function VerbNinjaGame({ soundEnabled, toggleSound, selectedVerbs, setGameResult
                 ;[newVerbs[i], newVerbs[j]] = [newVerbs[j], newVerbs[i]]
         }
 
-        // Assign evenly distributed spawn delays (spread over 7 seconds)
-        const spawnInterval = 7000 / newVerbs.length
+        // Assign evenly distributed spawn delays (spread over 12 seconds)
+        const spawnInterval = 12000 / newVerbs.length
         newVerbs.forEach((v, i) => {
             v.spawnDelay = i * spawnInterval + Math.random() * 300 // Small random offset
         })
