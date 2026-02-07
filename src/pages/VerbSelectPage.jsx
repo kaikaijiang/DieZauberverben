@@ -7,6 +7,12 @@ import verbs from '../data/VerbenList.json'
 import './VerbSelectPage.css'
 
 const GAME_INFO = {
+    flashcards: {
+        title: 'Verbkarten',
+        emoji: '📚',
+        path: '/play/flashcards',
+        hasDifficulty: false
+    },
     memory: {
         title: 'Gedächtnisspiel',
         emoji: '🧠',

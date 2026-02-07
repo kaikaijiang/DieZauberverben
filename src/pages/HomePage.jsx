@@ -6,6 +6,13 @@ import './HomePage.css'
 function HomePage({ soundEnabled, toggleSound }) {
     const games = [
         {
+            id: 'flashcards',
+            title: 'Verbkarten',
+            emoji: '📚',
+            description: 'Lerne die Verben!',
+            color: '#9B59B6'
+        },
+        {
             id: 'memory',
             title: 'Gedächtnisspiel',
             emoji: '🧠',
@@ -62,7 +69,7 @@ function HomePage({ soundEnabled, toggleSound }) {
                             <h2 className="game-title">{game.title}</h2>
                             <p className="game-description">{game.description}</p>
                             <div className="game-play-btn">
-                                Spielen
+                                {game.id === 'flashcards' ? 'Lernen' : 'Spielen'}
                                 <svg viewBox="0 0 24 24" fill="currentColor">
                                     <path d="M8 5v14l11-7z" />
                                 </svg>
