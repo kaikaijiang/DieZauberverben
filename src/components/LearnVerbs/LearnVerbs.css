@@ -329,8 +329,21 @@
 
 /* Portrait mobile - vertical layout for verb table */
 @media (orientation: portrait) and (max-width: 768px) {
+
+    /* Critical: enable scrolling on portrait */
+    .learn-verbs-page {
+        height: auto;
+        min-height: 100vh;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
     .learn-header {
         padding: 0.5rem 1rem;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        background: linear-gradient(135deg, #4A90D9 0%, #7ED321 100%);
     }
 
     .exit-btn {
@@ -354,6 +367,7 @@
         padding: 0.75rem;
         gap: 1rem;
         justify-content: flex-start;
+        flex: none;
     }
 
     .verb-card {

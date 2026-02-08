@@ -379,8 +379,21 @@
 
 /* Portrait mobile - smaller card, vertical-friendly layout */
 @media (orientation: portrait) and (max-width: 768px) {
+
+    /* Critical: enable scrolling on portrait */
+    .flashcards-page {
+        height: auto;
+        min-height: 100vh;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
     .flashcards-header {
         padding: 0.5rem 1rem;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        background: linear-gradient(135deg, #4A90D9 0%, #7ED321 100%);
     }
 
     .exit-btn {
@@ -405,6 +418,7 @@
         gap: 1rem;
         justify-content: flex-start;
         padding-top: 1rem;
+        flex: none;
     }
 
     .flashcard {

@@ -215,8 +215,18 @@
 
 /* Portrait mode - flip grid orientation for better fit */
 @media (orientation: portrait) {
+
+    /* Enable scrolling if grid is still too tall */
+    .memory-match-page {
+        height: auto;
+        min-height: 100vh;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
     .memory-game-area {
         padding: 0.5rem;
+        flex: none;
     }
 
     .card-grid {
@@ -229,6 +239,10 @@
     .game-stats {
         gap: 0.5rem;
         padding: 0.5rem;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        background: linear-gradient(135deg, #4A90D9 0%, #7ED321 100%);
     }
 
     .stat-box {

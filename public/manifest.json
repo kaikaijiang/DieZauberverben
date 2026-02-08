@@ -1,0 +1,28 @@
+{
+    "name": "Die Zauberverben",
+    "short_name": "Zauberverben",
+    "description": "Lerne starke Verben spielerisch!",
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "any",
+    "background_color": "#1a3a4a",
+    "theme_color": "#4A90D9",
+    "icons": [
+        {
+            "src": "/owl-icon.svg",
+            "sizes": "any",
+            "type": "image/svg+xml",
+            "purpose": "any"
+        },
+        {
+            "src": "/owl-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/owl-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
