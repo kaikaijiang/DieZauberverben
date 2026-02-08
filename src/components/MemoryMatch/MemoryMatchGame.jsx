@@ -8,9 +8,9 @@ import verbs from '../../data/VerbenList.json'
 import './MemoryMatch.css'
 
 const DIFFICULTY_CONFIG = {
-    easy: { pairs: 6, columns: 4 },
-    medium: { pairs: 8, columns: 4 },
-    hard: { pairs: 12, columns: 6 }
+    easy: { pairs: 6, columns: 4, columnsPortrait: 3 },
+    medium: { pairs: 8, columns: 4, columnsPortrait: 4 },
+    hard: { pairs: 12, columns: 6, columnsPortrait: 4 }
 }
 
 function MemoryMatchGame({ soundEnabled, toggleSound, selectedVerbs, setGameResult }) {
@@ -170,7 +170,10 @@ function MemoryMatchGame({ soundEnabled, toggleSound, selectedVerbs, setGameResu
             <main className="memory-game-area">
                 <div
                     className="card-grid"
-                    style={{ '--columns': config.columns }}
+                    style={{
+                        '--columns': config.columns,
+                        '--columns-portrait': config.columnsPortrait
+                    }}
                 >
                     {cards.map((card, index) => (
                         <Card

@@ -8,7 +8,6 @@ import MemoryMatchGame from './components/MemoryMatch/MemoryMatchGame'
 import VerbNinjaGame from './components/VerbNinja/VerbNinjaGame'
 import FillTheGapGame from './components/FillTheGap/FillTheGapGame'
 import GameResultPage from './pages/GameResultPage'
-import LandscapeWarning from './components/common/LandscapeWarning'
 
 function App() {
     const [soundEnabled, setSoundEnabled] = useState(true)
@@ -21,7 +20,6 @@ function App() {
 
     return (
         <div className="app">
-            <LandscapeWarning />
             <div className="app-content">
                 <Routes>
                     <Route

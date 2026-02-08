@@ -78,3 +78,29 @@
         flex: 0 0 48px;
     }
 }
+
+/* Portrait mobile - even more compact header */
+@media (orientation: portrait) and (max-width: 768px) {
+    .header {
+        padding: 0.5rem 0.75rem;
+    }
+
+    .header-title {
+        font-size: 1rem;
+    }
+
+    .btn-back {
+        width: 40px;
+        height: 40px;
+    }
+
+    .btn-back svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .header-left,
+    .header-right {
+        flex: 0 0 44px;
+    }
+}

@@ -293,3 +293,44 @@
         font-size: 1.5rem;
     }
 }
+
+/* Portrait mode - faster fall speed to compensate for longer vertical distance */
+@media (orientation: portrait) {
+    .falling-verb {
+        animation: fruitFallFast 10s linear forwards;
+    }
+
+    .hint-display.faded {
+        top: 6rem;
+        right: 0.5rem;
+        transform: translate(0, 0) scale(0.5);
+    }
+
+    .hint-content {
+        padding: 0.75rem 1rem;
+    }
+
+    .hint-verb {
+        font-size: 1.5rem;
+    }
+
+    .hint-label {
+        font-size: 0.8rem;
+    }
+
+    .hint-tense {
+        font-size: 0.75rem;
+    }
+}
+
+@keyframes fruitFallFast {
+    0% {
+        top: -120px;
+        transform: translateX(-50%);
+    }
+
+    100% {
+        top: calc(100% + 120px);
+        transform: translateX(-50%);
+    }
+}

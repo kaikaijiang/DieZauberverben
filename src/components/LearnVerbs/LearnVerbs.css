@@ -326,3 +326,114 @@
         font-size: 0.9rem;
     }
 }
+
+/* Portrait mobile - vertical layout for verb table */
+@media (orientation: portrait) and (max-width: 768px) {
+    .learn-header {
+        padding: 0.5rem 1rem;
+    }
+
+    .exit-btn {
+        padding: 0.375rem 0.75rem;
+        font-size: 0.875rem;
+    }
+
+    .progress-container {
+        max-width: 180px;
+    }
+
+    .progress-bar {
+        height: 8px;
+    }
+
+    .progress-text {
+        font-size: 0.75rem;
+    }
+
+    .learn-content {
+        padding: 0.75rem;
+        gap: 1rem;
+        justify-content: flex-start;
+    }
+
+    .verb-card {
+        max-width: 100%;
+    }
+
+    .verb-card-header {
+        padding: 1rem;
+    }
+
+    .verb-infinitive {
+        font-size: 1.75rem;
+    }
+
+    .verb-card-body {
+        padding: 1rem;
+    }
+
+    /* Vertical layout for verb table in portrait */
+    .verb-table {
+        display: block;
+    }
+
+    .verb-row {
+        display: flex;
+        flex-direction: column;
+        padding: 0.75rem 0;
+    }
+
+    .verb-row td {
+        padding: 0.25rem 0;
+        width: 100%;
+        text-align: left;
+    }
+
+    .label-cell {
+        text-align: left;
+        padding-right: 0;
+        margin-bottom: 0.25rem;
+    }
+
+    .tense-label {
+        font-size: 0.85rem;
+    }
+
+    .form-cell {
+        width: 100%;
+    }
+
+    .verb-form {
+        font-size: 1.2rem;
+    }
+
+    .example-cell {
+        width: 100%;
+        margin-top: 0.25rem;
+    }
+
+    .example-text {
+        font-size: 0.85rem;
+    }
+
+    .navigation-buttons {
+        gap: 0.75rem;
+    }
+
+    .nav-btn {
+        padding: 0.875rem 1rem;
+        font-size: 1rem;
+    }
+
+    .completion-content {
+        padding: 1.5rem;
+    }
+
+    .completion-icon {
+        font-size: 3rem;
+    }
+
+    .completion-content h2 {
+        font-size: 1.5rem;
+    }
+}
