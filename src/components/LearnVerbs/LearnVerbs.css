@@ -1,8 +1,9 @@
 .learn-verbs-page {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    overflow: hidden;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .learn-header {
@@ -329,14 +330,6 @@
 
 /* Portrait mobile - vertical layout for verb table */
 @media (orientation: portrait) and (max-width: 768px) {
-
-    /* Critical: enable scrolling on portrait */
-    .learn-verbs-page {
-        height: auto;
-        min-height: 100vh;
-        overflow-y: auto;
-        overflow-x: hidden;
-    }
 
     .learn-header {
         padding: 0.5rem 1rem;

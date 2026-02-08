@@ -1,8 +1,9 @@
 .flashcards-page {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    overflow: hidden;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .flashcards-header {
@@ -380,14 +381,6 @@
 /* Portrait mobile - smaller card, vertical-friendly layout */
 @media (orientation: portrait) and (max-width: 768px) {
 
-    /* Critical: enable scrolling on portrait */
-    .flashcards-page {
-        height: auto;
-        min-height: 100vh;
-        overflow-y: auto;
-        overflow-x: hidden;
-    }
-
     .flashcards-header {
         padding: 0.5rem 1rem;
         position: sticky;
@@ -423,7 +416,7 @@
 
     .flashcard {
         max-width: 100%;
-        height: auto;
+        height: 320px;
         min-height: 280px;
     }
 
