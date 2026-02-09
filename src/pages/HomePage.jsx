@@ -61,10 +61,8 @@ function HomePage({ soundEnabled, toggleSound }) {
             title="Home"
             description="Lerne starke deutsche Verben mit Spaß! Interaktive Spiele wie Verben-Ninja, Memory und mehr für Schüler."
             canonical="/"
+            jsonLd={jsonLd}
         >
-            <script type="application/ld+json">
-                {JSON.stringify(jsonLd)}
-            </script>
             <div className="home-page">
                 <header className="home-header">
                     <div className="header-spacer" />
