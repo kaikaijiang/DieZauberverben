@@ -1,5 +1,6 @@
 import { useState, useEffect, useMemo } from 'react'
 import { useNavigate } from 'react-router-dom'
+import SeoWrapper from '../common/SeoWrapper'
 import Header from '../common/Header'
 import VerbCard from './VerbCard'
 import { useSound } from '../../hooks/useSound'
@@ -63,82 +64,88 @@ function LearnVerbsGame({ soundEnabled, toggleSound, selectedVerbs }) {
 
     if (verbList.length === 0) {
         return (
-            <div className="learn-verbs-page">
-                <Header title="📖 Verben lernen" soundEnabled={soundEnabled} toggleSound={toggleSound} />
-                <div className="loading">Verben werden geladen...</div>
-            </div>
+            <SeoWrapper title="Verben Lernen" description="Lerne die Konjugation starker Verben." canonical="/play/learn">
+                <div className="learn-verbs-page">
+                    <Header title="📖 Verben lernen" soundEnabled={soundEnabled} toggleSound={toggleSound} />
+                    <div className="loading">Verben werden geladen...</div>
+                </div>
+            </SeoWrapper>
         )
     }
 
     if (sessionComplete) {
         return (
-            <div className="learn-verbs-page">
-                <Header title="📖 Verben lernen" soundEnabled={soundEnabled} toggleSound={toggleSound} />
-                <div className="completion-screen">
-                    <div className="completion-content">
-                        <div className="completion-icon">🎉</div>
-                        <h2>Super gemacht!</h2>
-                        <p className="completion-message">Du hast alle Verben durchgesehen!</p>
-                        <div className="completion-actions">
-                            <button className="btn-primary" onClick={handleRestart}>
-                                🔄 Nochmal durchgehen
-                            </button>
-                            <button className="btn-secondary" onClick={handlePractice}>
-                                📚 Jetzt üben!
-                            </button>
-                            <button className="btn-tertiary" onClick={handleExit}>
-                                🏠 Zur Startseite
-                            </button>
+            <SeoWrapper title="Verben Lernen - Fertig!" description="Du hast die Verben gelernt!" canonical="/play/learn">
+                <div className="learn-verbs-page">
+                    <Header title="📖 Verben lernen" soundEnabled={soundEnabled} toggleSound={toggleSound} />
+                    <div className="completion-screen">
+                        <div className="completion-content">
+                            <div className="completion-icon">🎉</div>
+                            <h2>Super gemacht!</h2>
+                            <p className="completion-message">Du hast alle Verben durchgesehen!</p>
+                            <div className="completion-actions">
+                                <button className="btn-primary" onClick={handleRestart}>
+                                    🔄 Nochmal durchgehen
+                                </button>
+                                <button className="btn-secondary" onClick={handlePractice}>
+                                    📚 Jetzt üben!
+                                </button>
+                                <button className="btn-tertiary" onClick={handleExit}>
+                                    🏠 Zur Startseite
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </SeoWrapper>
         )
     }
 
     return (
-        <div className="learn-verbs-page">
-            <Header title="📖 Verben lernen" soundEnabled={soundEnabled} toggleSound={toggleSound} />
+        <SeoWrapper title="Verben Lernen" description="Lerne die Konjugation starker Verben." canonical="/play/learn">
+            <div className="learn-verbs-page">
+                <Header title="📖 Verben lernen" soundEnabled={soundEnabled} toggleSound={toggleSound} />
 
-            <div className="learn-header">
-                <button className="exit-btn" onClick={handleExit}>
-                    ← Beenden
-                </button>
-                <div className="progress-container">
-                    <div className="progress-bar">
-                        <div
-                            className="progress-fill"
-                            style={{ width: `${((currentIndex + 1) / totalVerbs) * 100}%` }}
-                        />
+                <div className="learn-header">
+                    <button className="exit-btn" onClick={handleExit}>
+                        ← Beenden
+                    </button>
+                    <div className="progress-container">
+                        <div className="progress-bar">
+                            <div
+                                className="progress-fill"
+                                style={{ width: `${((currentIndex + 1) / totalVerbs) * 100}%` }}
+                            />
+                        </div>
+                        <span className="progress-text">
+                            Verb {currentIndex + 1} / {totalVerbs}
+                        </span>
                     </div>
-                    <span className="progress-text">
-                        Verb {currentIndex + 1} / {totalVerbs}
-                    </span>
                 </div>
+
+                <main className="learn-content">
+                    {currentVerb && (
+                        <VerbCard verb={currentVerb} />
+                    )}
+
+                    <div className="navigation-buttons">
+                        <button
+                            className="nav-btn nav-prev"
+                            onClick={handlePrevious}
+                            disabled={isFirstVerb}
+                        >
+                            ← Zurück
+                        </button>
+                        <button
+                            className="nav-btn nav-next"
+                            onClick={handleNext}
+                        >
+                            {isLastVerb ? 'Fertig! ✓' : 'Weiter →'}
+                        </button>
+                    </div>
+                </main>
             </div>
-
-            <main className="learn-content">
-                {currentVerb && (
-                    <VerbCard verb={currentVerb} />
-                )}
-
-                <div className="navigation-buttons">
-                    <button
-                        className="nav-btn nav-prev"
-                        onClick={handlePrevious}
-                        disabled={isFirstVerb}
-                    >
-                        ← Zurück
-                    </button>
-                    <button
-                        className="nav-btn nav-next"
-                        onClick={handleNext}
-                    >
-                        {isLastVerb ? 'Fertig! ✓' : 'Weiter →'}
-                    </button>
-                </div>
-            </main>
-        </div>
+        </SeoWrapper>
     )
 }
 

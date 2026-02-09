@@ -1,5 +1,6 @@
 import { useState, useEffect, useCallback, useMemo } from 'react'
 import { useNavigate } from 'react-router-dom'
+import SeoWrapper from '../common/SeoWrapper'
 import Header from '../common/Header'
 import Sentence from './Sentence'
 import DraggableVerb from './DraggableVerb'
@@ -147,80 +148,84 @@ function FillTheGapGame({ soundEnabled, toggleSound, selectedVerbs, setGameResul
 
     if (!currentQuestion) {
         return (
+            <SeoWrapper title="Lückenfüller" description="Finde das fehlende Verb im Satz." canonical="/play/fill">
+                <div className="fill-gap-page">
+                    <Header
+                        title="🎯 Lückenfüller"
+                        soundEnabled={soundEnabled}
+                        toggleSound={toggleSound}
+                    />
+                    <main className="fill-loading">
+                        <p>Fragen werden geladen...</p>
+                    </main>
+                </div>
+            </SeoWrapper>
+        )
+    }
+
+    return (
+        <SeoWrapper title="Lückenfüller" description="Finde das fehlende Verb im Satz." canonical="/play/fill">
             <div className="fill-gap-page">
                 <Header
                     title="🎯 Lückenfüller"
                     soundEnabled={soundEnabled}
                     toggleSound={toggleSound}
                 />
-                <main className="fill-loading">
-                    <p>Fragen werden geladen...</p>
+
+                <div className="fill-game-header">
+                    <div className="progress-indicator">
+                        <span className="progress-current">{currentIndex + 1}</span>
+                        <span className="progress-sep">/</span>
+                        <span className="progress-total">{questions.length}</span>
+                    </div>
+                    <div className="fill-score">
+                        <span className="score-icon">🎯</span>
+                        <span className="score-value">{score}</span>
+                    </div>
+                    {streak >= 2 && (
+                        <div className="fill-streak">
+                            <span>🔥 {streak}</span>
+                        </div>
+                    )}
+                </div>
+
+                <main className="fill-game-area">
+                    <Sentence
+                        before={sentenceWithBlank.before}
+                        after={sentenceWithBlank.after}
+                        answer={answered ? currentQuestion.conjugated : null}
+                        isCorrect={isCorrectAnswer}
+                        tense={currentQuestion.tense}
+                    />
+
+                    <div className="options-area">
+                        <p className="options-instruction">Wähle das richtige Verb:</p>
+                        <div className="options-grid">
+                            {currentQuestion.options.map(option => (
+                                <DraggableVerb
+                                    key={option.id}
+                                    option={option}
+                                    onClick={() => handleAnswer(option)}
+                                    disabled={answered}
+                                    selected={selectedAnswer === option.id}
+                                    showResult={answered}
+                                />
+                            ))}
+                        </div>
+                    </div>
+
+                    {answered && (
+                        <div className={`feedback-message ${isCorrectAnswer ? 'correct' : 'wrong'}`}>
+                            {isCorrectAnswer ? (
+                                <span>✅ Richtig! Super gemacht!</span>
+                            ) : (
+                                <span>❌ Leider falsch. Die Antwort war: <strong>{currentQuestion.conjugated}</strong></span>
+                            )}
+                        </div>
+                    )}
                 </main>
             </div>
-        )
-    }
-
-    return (
-        <div className="fill-gap-page">
-            <Header
-                title="🎯 Lückenfüller"
-                soundEnabled={soundEnabled}
-                toggleSound={toggleSound}
-            />
-
-            <div className="fill-game-header">
-                <div className="progress-indicator">
-                    <span className="progress-current">{currentIndex + 1}</span>
-                    <span className="progress-sep">/</span>
-                    <span className="progress-total">{questions.length}</span>
-                </div>
-                <div className="fill-score">
-                    <span className="score-icon">🎯</span>
-                    <span className="score-value">{score}</span>
-                </div>
-                {streak >= 2 && (
-                    <div className="fill-streak">
-                        <span>🔥 {streak}</span>
-                    </div>
-                )}
-            </div>
-
-            <main className="fill-game-area">
-                <Sentence
-                    before={sentenceWithBlank.before}
-                    after={sentenceWithBlank.after}
-                    answer={answered ? currentQuestion.conjugated : null}
-                    isCorrect={isCorrectAnswer}
-                    tense={currentQuestion.tense}
-                />
-
-                <div className="options-area">
-                    <p className="options-instruction">Wähle das richtige Verb:</p>
-                    <div className="options-grid">
-                        {currentQuestion.options.map(option => (
-                            <DraggableVerb
-                                key={option.id}
-                                option={option}
-                                onClick={() => handleAnswer(option)}
-                                disabled={answered}
-                                selected={selectedAnswer === option.id}
-                                showResult={answered}
-                            />
-                        ))}
-                    </div>
-                </div>
-
-                {answered && (
-                    <div className={`feedback-message ${isCorrectAnswer ? 'correct' : 'wrong'}`}>
-                        {isCorrectAnswer ? (
-                            <span>✅ Richtig! Super gemacht!</span>
-                        ) : (
-                            <span>❌ Leider falsch. Die Antwort war: <strong>{currentQuestion.conjugated}</strong></span>
-                        )}
-                    </div>
-                )}
-            </main>
-        </div>
+        </SeoWrapper>
     )
 }
 

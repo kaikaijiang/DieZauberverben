@@ -1,5 +1,6 @@
 import { useState, useEffect, useCallback, useMemo } from 'react'
 import { useNavigate } from 'react-router-dom'
+import SeoWrapper from '../common/SeoWrapper'
 import Header from '../common/Header'
 import Card from './Card'
 import { useSound } from '../../hooks/useSound'
@@ -139,54 +140,56 @@ function MemoryMatchGame({ soundEnabled, toggleSound, selectedVerbs, setGameResu
     }
 
     return (
-        <div className="memory-match-page">
-            <Header
-                title="🧠 Gedächtnisspiel"
-                soundEnabled={soundEnabled}
-                toggleSound={toggleSound}
-            />
+        <SeoWrapper title="Gedächtnisspiel" description="Finde die passenden Verben-Paare." canonical="/play/memory">
+            <div className="memory-match-page">
+                <Header
+                    title="🧠 Gedächtnisspiel"
+                    soundEnabled={soundEnabled}
+                    toggleSound={toggleSound}
+                />
 
-            <div className="game-stats">
-                <div className="stat-box">
-                    <span className="stat-icon">🎯</span>
-                    <span className="stat-value">{score}</span>
-                </div>
-                <div className="stat-box">
-                    <span className="stat-icon">🔄</span>
-                    <span className="stat-value">{moves}</span>
-                </div>
-                <div className="stat-box">
-                    <span className="stat-icon">✨</span>
-                    <span className="stat-value">{matchedPairs.length}/{config.pairs}</span>
-                </div>
-                {streak >= 2 && (
-                    <div className="stat-box streak">
-                        <span className="stat-icon">🔥</span>
-                        <span className="stat-value">{streak}</span>
+                <div className="game-stats">
+                    <div className="stat-box">
+                        <span className="stat-icon">🎯</span>
+                        <span className="stat-value">{score}</span>
                     </div>
-                )}
-            </div>
-
-            <main className="memory-game-area">
-                <div
-                    className="card-grid"
-                    style={{
-                        '--columns': config.columns,
-                        '--columns-portrait': config.columnsPortrait
-                    }}
-                >
-                    {cards.map((card, index) => (
-                        <Card
-                            key={card.id}
-                            card={card}
-                            isFlipped={isCardFlipped(index)}
-                            isMatched={isCardMatched(index)}
-                            onClick={() => handleCardClick(index)}
-                        />
-                    ))}
+                    <div className="stat-box">
+                        <span className="stat-icon">🔄</span>
+                        <span className="stat-value">{moves}</span>
+                    </div>
+                    <div className="stat-box">
+                        <span className="stat-icon">✨</span>
+                        <span className="stat-value">{matchedPairs.length}/{config.pairs}</span>
+                    </div>
+                    {streak >= 2 && (
+                        <div className="stat-box streak">
+                            <span className="stat-icon">🔥</span>
+                            <span className="stat-value">{streak}</span>
+                        </div>
+                    )}
                 </div>
-            </main>
-        </div>
+
+                <main className="memory-game-area">
+                    <div
+                        className="card-grid"
+                        style={{
+                            '--columns': config.columns,
+                            '--columns-portrait': config.columnsPortrait
+                        }}
+                    >
+                        {cards.map((card, index) => (
+                            <Card
+                                key={card.id}
+                                card={card}
+                                isFlipped={isCardFlipped(index)}
+                                isMatched={isCardMatched(index)}
+                                onClick={() => handleCardClick(index)}
+                            />
+                        ))}
+                    </div>
+                </main>
+            </div>
+        </SeoWrapper>
     )
 }
 

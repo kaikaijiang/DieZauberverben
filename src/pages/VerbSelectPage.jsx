@@ -1,5 +1,6 @@
 import { useState, useEffect, useMemo } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
+import SeoWrapper from '../components/common/SeoWrapper'
 import Header from '../components/common/Header'
 import VerbSelector from '../components/common/VerbSelector'
 import OwlMascot from '../components/common/OwlMascot'
@@ -76,67 +77,73 @@ function VerbSelectPage({ soundEnabled, toggleSound, setSelectedVerbs }) {
     if (!gameInfo) return null
 
     return (
-        <div className="verb-select-page">
-            <Header
-                title={`${gameInfo.emoji} ${gameInfo.title}`}
-                soundEnabled={soundEnabled}
-                toggleSound={toggleSound}
-            />
+        <SeoWrapper
+            title={`Wähle dein Spiel - ${gameInfo.title}`}
+            description={`Wähle Verben für ${gameInfo.title} und beginne zu üben.`}
+            canonical={`/select/${game}`}
+        >
+            <div className="verb-select-page">
+                <Header
+                    title={`${gameInfo.emoji} ${gameInfo.title}`}
+                    soundEnabled={soundEnabled}
+                    toggleSound={toggleSound}
+                />
 
-            <main className="verb-select-content">
-                <div className="verb-select-layout">
-                    <div className="mascot-helper">
-                        <OwlMascot expression="thinking" size="medium" />
-                        <div className="helper-text">
-                            <p>Wähle die Verben aus, die du üben möchtest!</p>
+                <main className="verb-select-content">
+                    <div className="verb-select-layout">
+                        <div className="mascot-helper">
+                            <OwlMascot expression="thinking" size="medium" />
+                            <div className="helper-text">
+                                <p>Wähle die Verben aus, die du üben möchtest!</p>
+                            </div>
+                        </div>
+
+                        <div className="selection-card">
+                            <VerbSelector
+                                verbs={verbs}
+                                selectedVerbs={selected}
+                                onSelectionChange={setSelected}
+                                minVerbs={10}
+                                maxVerbs={verbList.length}
+                            />
                         </div>
                     </div>
 
-                    <div className="selection-card">
-                        <VerbSelector
-                            verbs={verbs}
-                            selectedVerbs={selected}
-                            onSelectionChange={setSelected}
-                            minVerbs={10}
-                            maxVerbs={verbList.length}
-                        />
-                    </div>
-                </div>
-
-                {gameInfo.hasDifficulty && (
-                    <div className="difficulty-section">
-                        <h3>Schwierigkeit wählen:</h3>
-                        <div className="difficulty-options">
-                            {DIFFICULTIES.map(diff => (
-                                <button
-                                    key={diff.id}
-                                    className={`difficulty-btn ${difficulty === diff.id ? 'active' : ''}`}
-                                    onClick={() => setDifficulty(diff.id)}
-                                >
-                                    <span className="diff-label">{diff.label}</span>
-                                    <span className="diff-info">{diff.pairs} Paare ({diff.grid})</span>
-                                </button>
-                            ))}
+                    {gameInfo.hasDifficulty && (
+                        <div className="difficulty-section">
+                            <h3>Schwierigkeit wählen:</h3>
+                            <div className="difficulty-options">
+                                {DIFFICULTIES.map(diff => (
+                                    <button
+                                        key={diff.id}
+                                        className={`difficulty-btn ${difficulty === diff.id ? 'active' : ''}`}
+                                        onClick={() => setDifficulty(diff.id)}
+                                    >
+                                        <span className="diff-label">{diff.label}</span>
+                                        <span className="diff-info">{diff.pairs} Paare ({diff.grid})</span>
+                                    </button>
+                                ))}
+                            </div>
                         </div>
-                    </div>
-                )}
-
-                <div className="start-section">
-                    <button
-                        className="btn btn-success start-btn"
-                        onClick={handleStartGame}
-                        disabled={selected.length < 10}
-                    >
-                        Spiel starten! 🚀
-                    </button>
-                    {selected.length < 10 && (
-                        <p className="start-warning">
-                            Mindestens 10 Verben auswählen
-                        </p>
                     )}
-                </div>
-            </main>
-        </div>
+
+                    <div className="start-section">
+                        <button
+                            className="btn btn-success start-btn"
+                            onClick={handleStartGame}
+                            disabled={selected.length < 10}
+                        >
+                            Spiel starten! 🚀
+                        </button>
+                        {selected.length < 10 && (
+                            <p className="start-warning">
+                                Mindestens 10 Verben auswählen
+                            </p>
+                        )}
+                    </div>
+                </main>
+            </div>
+        </SeoWrapper>
     )
 }
 

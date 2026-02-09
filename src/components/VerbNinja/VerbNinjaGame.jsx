@@ -1,5 +1,6 @@
 import { useState, useEffect, useCallback, useRef } from 'react'
 import { useNavigate } from 'react-router-dom'
+import SeoWrapper from '../common/SeoWrapper'
 import Header from '../common/Header'
 import FallingVerb from './FallingVerb'
 import HintDisplay from './HintDisplay'
@@ -315,70 +316,72 @@ function VerbNinjaGame({ soundEnabled, toggleSound, selectedVerbs, setGameResult
     }, []) // eslint-disable-line react-hooks/exhaustive-deps
 
     return (
-        <div className="verb-ninja-page">
-            <Header
-                title="🥷 Verben-Ninja"
-                soundEnabled={soundEnabled}
-                toggleSound={toggleSound}
-            />
+        <SeoWrapper title="Verben-Ninja" description="Zerschneide die richtigen Verben!" canonical="/play/ninja">
+            <div className="verb-ninja-page">
+                <Header
+                    title="🥷 Verben-Ninja"
+                    soundEnabled={soundEnabled}
+                    toggleSound={toggleSound}
+                />
 
-            <div className="ninja-game-header">
-                <div className="ninja-score">
-                    <span className="score-icon">💎</span>
-                    <span className="score-value">{score}</span>
+                <div className="ninja-game-header">
+                    <div className="ninja-score">
+                        <span className="score-icon">💎</span>
+                        <span className="score-value">{score}</span>
+                    </div>
+                    {totalStats.perfect > 0 && (
+                        <div className="perfect-count">
+                            <span>⭐ {totalStats.perfect}</span>
+                        </div>
+                    )}
                 </div>
-                {totalStats.perfect > 0 && (
-                    <div className="perfect-count">
-                        <span>⭐ {totalStats.perfect}</span>
-                    </div>
-                )}
+
+                <HintDisplay
+                    verb={hintVerb}
+                    tense={hintTense}
+                    faded={hintFaded}
+                />
+
+                <main
+                    ref={gameAreaRef}
+                    className="ninja-game-area"
+                    data-gameover={gameOver}
+                    onMouseDown={handlePointerDown}
+                    onMouseMove={handlePointerMove}
+                    onMouseUp={handlePointerUp}
+                    onMouseLeave={handlePointerUp}
+                    onTouchStart={handlePointerDown}
+                    onTouchMove={handlePointerMove}
+                    onTouchEnd={handlePointerUp}
+                >
+                    <SliceTrail points={sliceTrail} />
+
+                    {fallingVerbs.filter(v => v.spawned && !v.sliced).map(verb => (
+                        <FallingVerb
+                            key={verb.id}
+                            verb={verb}
+                            onFallOff={() => handleVerbFallOff(verb)}
+                        />
+                    ))}
+
+                    {splashes.map(splash => (
+                        <JuiceSplash
+                            key={splash.id}
+                            x={splash.x}
+                            y={splash.y}
+                            isCorrect={splash.isCorrect}
+                        />
+                    ))}
+
+                    {gameOver && (
+                        <div className="game-over-overlay">
+                            <h2>Spiel vorbei!</h2>
+                            <p>Dein Ergebnis wird geladen...</p>
+                        </div>
+                    )}
+                </main>
             </div>
-
-            <HintDisplay
-                verb={hintVerb}
-                tense={hintTense}
-                faded={hintFaded}
-            />
-
-            <main
-                ref={gameAreaRef}
-                className="ninja-game-area"
-                data-gameover={gameOver}
-                onMouseDown={handlePointerDown}
-                onMouseMove={handlePointerMove}
-                onMouseUp={handlePointerUp}
-                onMouseLeave={handlePointerUp}
-                onTouchStart={handlePointerDown}
-                onTouchMove={handlePointerMove}
-                onTouchEnd={handlePointerUp}
-            >
-                <SliceTrail points={sliceTrail} />
-
-                {fallingVerbs.filter(v => v.spawned && !v.sliced).map(verb => (
-                    <FallingVerb
-                        key={verb.id}
-                        verb={verb}
-                        onFallOff={() => handleVerbFallOff(verb)}
-                    />
-                ))}
-
-                {splashes.map(splash => (
-                    <JuiceSplash
-                        key={splash.id}
-                        x={splash.x}
-                        y={splash.y}
-                        isCorrect={splash.isCorrect}
-                    />
-                ))}
-
-                {gameOver && (
-                    <div className="game-over-overlay">
-                        <h2>Spiel vorbei!</h2>
-                        <p>Dein Ergebnis wird geladen...</p>
-                    </div>
-                )}
-            </main>
-        </div>
+        </SeoWrapper>
     )
 }
 

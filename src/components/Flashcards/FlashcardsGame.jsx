@@ -1,5 +1,6 @@
 import { useState, useEffect, useCallback, useRef } from 'react'
 import { useNavigate } from 'react-router-dom'
+import SeoWrapper from '../common/SeoWrapper'
 import Header from '../common/Header'
 import Flashcard from './Flashcard'
 import { useSound } from '../../hooks/useSound'
@@ -144,94 +145,100 @@ function FlashcardsGame({ soundEnabled, toggleSound, selectedVerbs, setGameResul
 
     if (cards.length === 0) {
         return (
-            <div className="flashcards-page">
-                <Header title="📚 Verbkarten" soundEnabled={soundEnabled} toggleSound={toggleSound} />
-                <div className="loading">Karten werden geladen...</div>
-            </div>
+            <SeoWrapper title="Verbkarten" description="Teste dein Wissen mit interaktiven Verbkarten." canonical="/play/flashcards">
+                <div className="flashcards-page">
+                    <Header title="📚 Verbkarten" soundEnabled={soundEnabled} toggleSound={toggleSound} />
+                    <div className="loading">Karten werden geladen...</div>
+                </div>
+            </SeoWrapper>
         )
     }
 
     if (sessionComplete) {
         return (
-            <div className="flashcards-page">
-                <Header title="📚 Verbkarten" soundEnabled={soundEnabled} toggleSound={toggleSound} />
-                <div className="completion-screen">
-                    <div className="completion-content">
-                        <div className="completion-icon">🎉</div>
-                        <h2>Geschafft!</h2>
-                        <p className="completion-stat">
-                            <span className="stat-number">{totalReviewed}</span>
-                            <span className="stat-label">Karten durchgearbeitet</span>
-                        </p>
-                        <div className="completion-actions">
-                            <button className="btn-primary" onClick={handleRestart}>
-                                🔄 Nochmal üben
-                            </button>
-                            <button className="btn-secondary" onClick={handlePlayGames}>
-                                🎮 Jetzt spielen!
-                            </button>
-                            <button className="btn-tertiary" onClick={handleExit}>
-                                🏠 Zur Startseite
-                            </button>
+            <SeoWrapper title="Verbkarten - Fertig!" description="Du hast die Verbkarten gemeistert!" canonical="/play/flashcards">
+                <div className="flashcards-page">
+                    <Header title="📚 Verbkarten" soundEnabled={soundEnabled} toggleSound={toggleSound} />
+                    <div className="completion-screen">
+                        <div className="completion-content">
+                            <div className="completion-icon">🎉</div>
+                            <h2>Geschafft!</h2>
+                            <p className="completion-stat">
+                                <span className="stat-number">{totalReviewed}</span>
+                                <span className="stat-label">Karten durchgearbeitet</span>
+                            </p>
+                            <div className="completion-actions">
+                                <button className="btn-primary" onClick={handleRestart}>
+                                    🔄 Nochmal üben
+                                </button>
+                                <button className="btn-secondary" onClick={handlePlayGames}>
+                                    🎮 Jetzt spielen!
+                                </button>
+                                <button className="btn-tertiary" onClick={handleExit}>
+                                    🏠 Zur Startseite
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </SeoWrapper>
         )
     }
 
     return (
-        <div className="flashcards-page">
-            <Header title="📚 Verbkarten" soundEnabled={soundEnabled} toggleSound={toggleSound} />
+        <SeoWrapper title="Verbkarten" description="Teste dein Wissen mit interaktiven Verbkarten." canonical="/play/flashcards">
+            <div className="flashcards-page">
+                <Header title="📚 Verbkarten" soundEnabled={soundEnabled} toggleSound={toggleSound} />
 
-            <div className="flashcards-header">
-                <button className="exit-btn" onClick={handleExit}>
-                    ← Beenden
-                </button>
-                <div className="progress-container">
-                    <div className="progress-bar">
-                        <div
-                            className="progress-fill"
-                            style={{ width: `${progress}%` }}
-                        />
+                <div className="flashcards-header">
+                    <button className="exit-btn" onClick={handleExit}>
+                        ← Beenden
+                    </button>
+                    <div className="progress-container">
+                        <div className="progress-bar">
+                            <div
+                                className="progress-fill"
+                                style={{ width: `${progress}%` }}
+                            />
+                        </div>
+                        <span className="progress-text">
+                            {learnedCards.size} / {totalCards} Karten
+                        </span>
                     </div>
-                    <span className="progress-text">
-                        {learnedCards.size} / {totalCards} Karten
-                    </span>
                 </div>
+
+                <main className="flashcards-content">
+                    {currentCard && (
+                        <Flashcard
+                            card={currentCard}
+                            isFlipped={isFlipped}
+                            onFlip={handleFlip}
+                        />
+                    )}
+
+                    {isFlipped && (
+                        <div className="assessment-buttons">
+                            <button
+                                className="btn-study-again"
+                                onClick={handleStudyAgain}
+                            >
+                                ✗ Nochmal üben
+                            </button>
+                            <button
+                                className="btn-knew-it"
+                                onClick={handleKnewIt}
+                            >
+                                ✓ Wusste ich!
+                            </button>
+                        </div>
+                    )}
+
+                    {!isFlipped && (
+                        <p className="flip-hint">Tippe auf die Karte zum Umdrehen</p>
+                    )}
+                </main>
             </div>
-
-            <main className="flashcards-content">
-                {currentCard && (
-                    <Flashcard
-                        card={currentCard}
-                        isFlipped={isFlipped}
-                        onFlip={handleFlip}
-                    />
-                )}
-
-                {isFlipped && (
-                    <div className="assessment-buttons">
-                        <button
-                            className="btn-study-again"
-                            onClick={handleStudyAgain}
-                        >
-                            ✗ Nochmal üben
-                        </button>
-                        <button
-                            className="btn-knew-it"
-                            onClick={handleKnewIt}
-                        >
-                            ✓ Wusste ich!
-                        </button>
-                    </div>
-                )}
-
-                {!isFlipped && (
-                    <p className="flip-hint">Tippe auf die Karte zum Umdrehen</p>
-                )}
-            </main>
-        </div>
+        </SeoWrapper>
     )
 }
 
